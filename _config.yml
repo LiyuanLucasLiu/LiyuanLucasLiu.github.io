@@ -1,7 +1,8 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:title.html
-
+plugins:
+  - jekyll-sitemap
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
@@ -94,7 +95,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : tweet
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
