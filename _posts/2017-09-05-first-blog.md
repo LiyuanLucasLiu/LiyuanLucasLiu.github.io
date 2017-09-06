@@ -1,6 +1,10 @@
 ---
 title: Hello World!
 layout: post
+category: News
+tag: 
+ - news 
+ - general
 ---
 
 As idea can only be generated from ideas, I finally set up this blog. 

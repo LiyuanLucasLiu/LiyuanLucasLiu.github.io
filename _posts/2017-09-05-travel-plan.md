@@ -1,6 +1,13 @@
 ---
-title: EMNLP 2017
+title: EMNLP 2017 Report
 layout: post
+category: Report
+tag: 
+ - emnlp
+ - 2017
+ - report
+ - conference
+ - rehession
 ---
 
 I would attend the EMNLP 2017 conference and present our Relation Extraction Paper (see below). Also I'm planning to write a EMNLP 2017 report later.
