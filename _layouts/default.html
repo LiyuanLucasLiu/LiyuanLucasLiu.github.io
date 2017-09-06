@@ -9,8 +9,7 @@
   <div class="hero-body">
     <div class="container">
         <h1 class="title">
-          <span class="typewrite" data-period="2000" data-type='[ "hello", "namaste", "assalam o alaikum",
-          "sat srī akāl", "khammaghani", "hola", "bonjour", "nomoskaar", "guten tag", "kumusta", "salut", "nômoshkar"]'>
+          <span class="typewrite" data-period="2000" data-type='[ "Hello!&nbsp", "你好!&nbsp", "Bonjour!&nbsp", "(-:&nbsp", "Accepted!&nbsp", "Good Idea!&nbsp", ":-)&nbsp"]'>
             <span class="wrap"></span>
           </span>
         </h1>
@@ -34,30 +33,41 @@
           </span>
         </a>
 
-        <a href="https://github.com/LiyuanLucasLiu" class="nav-item">
+        <a href="/publication" class="nav-item">
           <span class="icon">
-            <i class="fa fa-github" aria-hidden="true" title="Github"></i>
+            <i class="fa fa-list-alt" aria-hidden="true" title="Publication"></i>
           </span>
         </a>
 
-        <div class="nav-item" id="searchFieldNav">
-          <div class="field has-addons">
-            <p class="control">
-              <input class="input is-small" type="text" placeholder="Find an article" id="search-text">
-            </p>
-            <p class="control">
-              <a class="button is-dark is-small" onclick="searchHandler();">
-                Search
-              </a>
-            </p>
-          </div>
+        <a href="/profile" class="nav-item">
+          <span class="icon">
+            <i class="fa fa-id-badge" aria-hidden="true" title="Profile"></i>
+          </span>
+        </a>
+
+        <div href="https://www.instagram.com/s2free/" class="nav-item">
+            |
         </div>
+
+        <a href="https://www.instagram.com/s2free/" class="nav-item">
+          <span class="icon">
+            <i class="fa fa-instagram" aria-hidden="true" title="Instagram"></i>
+          </span>
+        </a>
+
+        <a class="nav-item" href="https://github.com/LiyuanLucasLiu">
+          <span class="icon">
+          <i class="fa fa-facebook" aria-hidden="true" title="Facebook"></i>
+          </span>
+        </a>
 
       </div>
 
       <div class="nav-right nav-menu" id='nav-menu'>
+  
         <a href="/archive" class="nav-item">Archive</a>
         <a href="/tags" class="nav-item">Tags</a>
+        
       </div>
 
       <span class="nav-toggle" id="nav-toggle">
@@ -75,6 +85,68 @@
 
       <div class="tile is-4 is-child">
         <div class="tile is-parent is-vertical sidebar">
+
+
+          <div class="tile is-child widget">
+
+            <div class="card">
+              <header class="card-header">
+                <div class="card-header-title nice-title">
+                  <img style="margin-left: auto; margin-right:auto; display:block;" src="{{ site.baseurl }}/assets/images/triangle.jpg" width="50%"/>
+                </div>
+              </header>
+              <div class="card-content">
+                <div class="content nice-text">
+                  <p style="text-align: center;">
+                    Liyuan Liu <br>
+                    Ph.D. Student <br>
+                    CS@ILLINOIS <br>
+                    <a class="icon" href="www.linkedin.com/in/liyuanlucasliu">
+                      <i class="fa fa-linkedin-square" title="Linkedin"></i>
+                    </a>
+                    <a class="icon" href="https://github.com/LiyuanLucasLiu">
+                      <i class="fa fa-github" title="Github"></i>
+                    </a>
+                    <a class="icon" href="mailto:llychinalz@gmail.com">
+                      <i class="fa fa-envelope" title="Email"></i>
+                    </a>
+                    <a class="icon" href="weixin://findfriend/verifycontact/llychinalz">
+                      <i class="fa fa-weixin" title="WeChat"></i>
+                    </a>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="tile is-child widget">
+
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title nice-title">
+                  Highlight Projects
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content nice-text">
+                  <ul>
+                  <li>
+                  <a href="https://liyuanlucasliu.github.io/ReHession/">
+                    Relation Extraction
+                  </a>
+                  </li>
+                  <li>
+                  <a href="https://liyuanlucasliu.github.io/Content-Propagation/">
+                    Community Detection
+                  </a>
+                  </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="tile is-child widget">
 
@@ -103,30 +175,43 @@
             <div class="card">
               <header class="card-header">
                 <p class="card-header-title nice-title">
-                  Sponsored
+                  Search Blog
                 </p>
               </header>
               <div class="card-content">
                 <div class="content nice-text">
-                  <img src="{{ site.baseurl }}/assets/images/Dust_Bunny.jpg"/>
+                  <div class="nav-item" id="searchFieldNav">
+                    <div class="field has-addons">
+                      <p class="control">
+                        <input class="input is-small" type="text" placeholder="Title" id="search-text">
+                      </p>
+                      <p class="control">
+                        <a class="button is-dark is-small" onclick="searchHandler();">
+                          Search
+                        </a>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
           </div>
 
           <div class="tile is-child widget">
             <div class="card">
               <header class="card-header">
                 <p class="card-header-title nice-title">
-                  Recommended Websites
+                  Resources
                 </p>
               </header>
               <div class="card-content">
                 <div class="content nice-text">
                   <ul>
                     <li>
-                      <a href="http://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf"><i class="fa fa-book"></i>Matrix Cookbook</a>
+                      <a href="http://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">Matrix Cookbook</a>
+                    </li>
+                    <li>
+                      <a href="http://oyc.yale.edu/psychology/psyc-110/lecture-6">PSYC 110 from Yale</a>
                     </li>
                   </ul>
                 </div>
@@ -147,21 +232,24 @@
   <div class="container">
     <div class="content has-text-centered">
       <p>
-        Some rights reserved.
+        Liyuan Liu, 2017.
       </p>
       <p>
-        Blog Template made by<a href="https://github.com/jgthms/bulma">Bulma</a>, <a href="https://jekyllrb.com/">Jekyll</a>.
-      </p>
-      <p>
+        <a class="icon" href="www.linkedin.com/in/liyuanlucasliu">
+          <i class="fa fa-linkedin-square" title="Linkedin"></i>
+        </a>
         <a class="icon" href="https://github.com/LiyuanLucasLiu">
           <i class="fa fa-github" title="Github"></i>
-        </a>
-        <a class="icon" href="https://www.linkedin.com/in/LiyuanLucasLiu">
-          <i class="fa fa-linkedin" title="Linkedin"></i>
         </a>
         <a class="icon" href="mailto:llychinalz@gmail.com">
           <i class="fa fa-envelope" title="Email"></i>
         </a>
+        <a class="icon" href="weixin://findfriend/verifycontact/llychinalz">
+          <i class="fa fa-weixin" title="WeChat"></i>
+        </a>
+      </p>
+      <p>
+        Template by <a href="https://github.com/abhn/Soot-Spirits">Soot-Spirits</a>.
       </p>
     </div>
   </div>
