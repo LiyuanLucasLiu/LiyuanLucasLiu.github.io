@@ -15,8 +15,9 @@ For me, to be honest, I'm kind of dilatory... So... it's not likely that I would
 
 I plan to write several kinds of stuff:
 - My research
-- Conference report &amp reading notes
-- Basic stuff &amp tools
+- Conference report &amp; reading notes
+- Basic stuff &amp; tools
+- Random things
 
 Recently, I would try to find sometime and write something about my ICDM 15 paper.
 Although it's kind of a old paper, I really likes it, and want to introduce it to more people.

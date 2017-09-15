@@ -6,7 +6,9 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <span class="post-meta">{{ page.date | date: "%-d %B, %Y. It was a %A." }} <a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></span><hr/>
 
-    <span class="post-text">{{ content }}</span>
+    
+    <div class="content"><span class="post-text">{{ content }}</span></div>
+    <!-- <span class="post-text">{{ content }}</span> -->
 </div>
 
 <!--<div class="box">-->
