@@ -9,17 +9,19 @@ Not everything comes natural to us, but maybe that language does.
 > Man has an instinctive tendency to speak, as we see in the babble of our young children, while no child has an instinctive tendency to bake, brew or write. ---Charles Darwin 
 
 ## Research Interest
-My research interest focus on Text Mining, i.e., mining knowledge from text data, and use such knowledge to empower other tasks or problems.
+My research interest focus on Text Mining, i.e., mining knowledge from text data, and use such knowledge to empower Natural Language Processing.
 
 ## Education
 
 - UNIVERSITY OF ILLINOIS, URBANA-CHAMPAIGN (UIUC) 
 	* Ph.D. in Computer Science, Expected 2021
+	* Advisor: [Prof. Jiawei Han](http://web.engr.illinois.edu/~hanj/)
 	* GPA : 4.0/4.0 
 	* Rank: Top1%
 
 - UNIVERSITY OF SCIENCE AND TECHNOLOGY OF CHINA (USTC)
 	* B.E. in Computer Science, 2012 - 2016
+	* Advisor: [Prof. Linli Xu](staff.ustc.edu.cn/~linlixu/)
 	* Major GPA : 3.93/4.3 
 	* Rank: Top5%
 
