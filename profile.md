@@ -9,7 +9,7 @@ Not everything comes natural to us, but maybe that language does.
 > Man has an instinctive tendency to speak, as we see in the babble of our young children, while no child has an instinctive tendency to bake, brew or write. ---Charles Darwin 
 
 ## Research Interest
-My research interest focus on Text Mining, i.e., mining knowledge from text data, and use such knowledge to empower Natural Language Processing.
+Mining knowledge from unlabeled text, then using such knowledge to enhance Natural Language Understanding
 
 ## Education
 
@@ -39,18 +39,17 @@ My research interest focus on Text Mining, i.e., mining knowledge from text data
 
 ## Professional Experience
 
-- **DATA MINING GROUP** (Research Assistant, Aug 2016 - present, Urbana, IL）
-  * Proposed a Gaussian-vMF Mixture Model to cluster tweets based on geo-location and context embedding, which is utilized to detect local events and accepted by KDD 2017.
-  * Design and implement a novel framework to extract relations by leveraging different supervision information sources, which is based on representation learning and accepted by EMNLP 2017.
-  * Extract knowledge from raw text by language model and empower sequence labeling task, achieved state-of-the-art on both Named Entity Recognition and POS Tagging, currently under review.
+- **DATA MINING GROUP, UIUC** (Research Assistant, Aug 2016 - present, Urbana, IL）
+  * Advisor: Prof. Jiawei Han
 
 - **Social Computing Group, MICROSOFT RESEARCH ASIA** (Intern, July 2015 - May 2016, Beijing, China)
-  * Develop and ship Bing Dictionary’s word reciting component with teammates. Design new interaction strategy allowing algorithm to capture user’ specific familiarity level of a word.
-  * Explore the underlying reasoning of applying arithmetic on embedding vectors. Try to employ sparse coding to improve cosine similarity in the embedding space.
+  * Advisor: Dr. Ruihua Song
 
-- **UCOLLEGE STUDENT RESEARCH PROGRAM** (Research Assistant, Oct. 2013 - Dec. 2014)
-  * Independently conducted the project called Community Detection based on Information Network and Its Application. Persisted in modifying model and achieved precision 2 times higher than beginning.
-  * Composed and submitted a paper to the International Conference on Data Mining (ICDM 2015) as the first author, which has been accepted as Regular Paper.
+- **Laboratory of Semantic Computing and Data Mining, USTC** (Research Assistant, Oct. 2013 - June. 2015)
+  * Advisor: Prof. Linli Xu
+
+- **National Student Innovation Tranining Program, USTC** (Team Leader, April. 2013 - May. 2015)
+  * Advisor: Prof. Kai Xing
 
 ## Competition Experience
 
