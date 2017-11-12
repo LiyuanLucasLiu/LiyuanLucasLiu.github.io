@@ -11,10 +11,10 @@ group: navigation
 1.	Expert Finding in Heterogeneous BibliographicNetworks with Locally-trained Embeddings  
 Huan Gui, Qi Zhu, **Liyuan Liu**, Aston Zhang, and Jiawei Han
 
-1.	Graph Clustering with Deep Embedding
+1.	Graph Clustering with Deep Embedding  
 Carl Yang, **Liu, Liyuan**, Mengxiong Liu, Zhongyi Wang, Meng Qu and Jiawei Han
 
-1.	Exploring Representation Methods for Sequence Labeling
+1.	Exploring Representation Methods for Sequence Labeling  
 **Liu, Liyuan**, Jingbo Shang, Xiaotao Gu, Xiang Ren, Jian Peng and Jiawei Han
 
 ### Conference

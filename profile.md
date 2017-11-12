@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Profile
-header: Profile
+title: About Me
+header: About Me
 group: navigation
 ---
 
-Not everything comes natural to us, but maybe that language does.
-> Man has an instinctive tendency to speak, as we see in the babble of our young children, while no child has an instinctive tendency to bake, brew or write. ---Charles Darwin 
+Not everything comes natural to us, but maybe language does ([psyc 110](http://oyc.yale.edu/psychology/psyc-110/lecture-6))
+> Man has an instinctive tendency to speak, as we see in the babble of our young children, while no child has an instinctive tendency to bake, brew or write. ---Charles Darwin
 
 ## Research Interest
 Mining knowledge from unlabeled text, then using such knowledge to enhance Natural Language Understanding
@@ -36,19 +36,24 @@ Mining knowledge from unlabeled text, then using such knowledge to enhance Natur
 - Tencent Innovative Scholarship (2014)
 - Seagate Scholarship (2013)
 - Scholarship for Outstanding Students(2013)
+- Scholarship for Outstanding New Students(2012)
 
 ## Professional Experience
 
-- **DATA MINING GROUP, UIUC** (Research Assistant, Aug 2016 - present, Urbana, IL）
+- **DATA MINING GROUP, UIUC**
+  * Research Assistant, 2016 - present
   * Advisor: Prof. Jiawei Han
 
-- **Social Computing Group, MICROSOFT RESEARCH ASIA** (Intern, July 2015 - May 2016, Beijing, China)
+- **Social Computing Group, MSRA**
+  * Intern, 2015 - 2016
   * Advisor: Dr. Ruihua Song
 
-- **Laboratory of Semantic Computing and Data Mining, USTC** (Research Assistant, Oct. 2013 - June. 2015)
+- **Laboratory of Semantic Computing and Data Mining, USTC**
+  * Research Assistant, 2013 - 2015
   * Advisor: Prof. Linli Xu
 
-- **National Student Innovation Tranining Program, USTC** (Team Leader, April. 2013 - May. 2015)
+- **National Student Innovation Tranining Program, USTC**
+  * Team Leader, 2013 - 2015
   * Advisor: Prof. Kai Xing
 
 ## Competition Experience
