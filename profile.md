@@ -5,13 +5,12 @@ header: About Me
 group: navigation
 ---
 
+<a href="pdf/Liyuan_Resume.pdf">
+  <img alt="PDF version CV" src="https://img.shields.io/badge/Curriculum Vitae-PDF-blue.svg" />
+</a>
+
 Not everything comes natural to us, but [maybe language does](http://oyc.yale.edu/psychology/psyc-110/lecture-6)
 > Man has an instinctive tendency to speak, as we see in the babble of our young children, while no child has an instinctive tendency to bake, brew or write. ---Charles Darwin
-
-# Resume
-
-Please click [HERE](pdf/Liyuan_Resume.pdf) for the PDF version, and <a href="/publication">HERE</a> for publications.
-
 
 ## Research Interest
 Mining knowledge from unlabeled text, then using such knowledge to enhance Natural Language Understanding
