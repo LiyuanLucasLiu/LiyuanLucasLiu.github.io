@@ -124,6 +124,8 @@ Mining knowledge from unlabeled text, then using such knowledge to enhance Natur
 ## Awards
 
 <ul class="awards">
+    <li>Data Mining Research Excellence Award Honorable Mentioning (2017) 
+    </li>
     <li> 
         Guo Moruo Scholarship (2015)
         <ul class="awards">
