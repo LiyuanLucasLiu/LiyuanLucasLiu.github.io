@@ -24,11 +24,11 @@ Yujin Yuan, **Liyuan Liu**, Siliang Tang and Xiang Ren
 
 1.  Learning Named Entity Tagger using Domain-Specific Dictionary
 Jingbo Shang, **Liyuan Liu**, Xiaotao Gu, Xiang Ren, Teng Ren and Jiawei Han
-**EMNLP 2018** [[paper]](pdf/2018EMNLP_AutoNER.pdf) [[code]](https://github.com/shangjingbo1226/AutoNER) [[blog]](https://shangjingbo1226.github.io/AutoNER/)
+*EMNLP 2018* [[paper]](pdf/2018EMNLP_AutoNER.pdf) [[code]](https://github.com/shangjingbo1226/AutoNER) [[blog]](https://shangjingbo1226.github.io/AutoNER/)
 
 1.  Efficient Contextualized Representation: Language Model Pruning for Sequence Labeling
 **Liyuan Liu**, Xiang Ren, Jingbo Shang, Xiaotao Gu, Jian Peng and Jiawei Han
-**EMNLP 2018** [[paper]](pdf/2018EMNLP_LDNET.pdf) [[code]](https://github.com/LiyuanLucasLiu/LD-Net) [[blog]](https://liyuanlucasliu.github.io/LD-Net/)
+*EMNLP 2018* [[paper]](pdf/2018EMNLP_LDNET.pdf) [[code]](https://github.com/LiyuanLucasLiu/LD-Net) [[blog]](https://liyuanlucasliu.github.io/LD-Net/)
 
 1.	Empowering Character-aware Sequence Labeling with Task-Aware Neural Language Model  
 **Liyuan Liu**, Jingbo Shang, Frank Xu, Ren Xiang, Huan Gui, Peng Jian and Jiawei Han  
