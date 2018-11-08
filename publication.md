@@ -14,16 +14,27 @@ Huan Gui, Qi Zhu, **Liyuan Liu**, Aston Zhang, and Jiawei Han
 1.	Graph Clustering with Deep Embedding  
 Carl Yang, **Liu, Liyuan**, Mengxiong Liu, Zhongyi Wang, Meng Qu and Jiawei Han
 
-1.	Exploring Representation Methods for Sequence Labeling  
-**Liu, Liyuan**, Jingbo Shang, Xiaotao Gu, Xiang Ren, Jian Peng and Jiawei Han
+1.	Complementary Learning for Named Entity Recognition
+Shi Zhi, **Liyuan Liu**, Yu Zhang, Shiyin Wang, Qi Li, Chao Zhang and Jiawei Han
+
+1.	Cross-relation Cross-bag Attention for Distantly-supervised Relation Extraction.
+Yujin Yuan, **Liyuan Liu**, Siliang Tang and Xiang Ren
 
 ### Conference
+
+1.  Learning Named Entity Tagger using Domain-Specific Dictionary
+Jingbo Shang, **Liyuan Liu**, Xiaotao Gu, Xiang Ren, Teng Ren and Jiawei Han
+*EMNLP 2018* [[paper]](pdf/2018EMNLP_AutoNER.pdf) [[code]](https://github.com/shangjingbo1226/AutoNER) [[blog]](https://shangjingbo1226.github.io/AutoNER/)
+
+1.  Efficient Contextualized Representation: Language Model Pruning for Sequence Labeling
+**Liyuan Liu**, Xiang Ren, Jingbo Shang, Xiaotao Gu, Jian Peng and Jiawei Han
+*EMNLP 2018* [[paper]](pdf/2018EMNLP_LDNET.pdf) [[code]](https://github.com/LiyuanLucasLiu/LD-Net) [[blog]](https://liyuanlucasliu.github.io/LD-Net/)
 
 1.	Empowering Character-aware Sequence Labeling with Task-Aware Neural Language Model  
 **Liyuan Liu**, Jingbo Shang, Frank Xu, Ren Xiang, Huan Gui, Peng Jian and Jiawei Han  
 *AAAI 2018* [[paper]](https://arxiv.org/pdf/1709.04109.pdf) [[code]](https://github.com/LiyuanLucasLiu/LM-LSTM-CRF) [[blog]](https://liyuanlucasliu.github.io/LM-LSTM-CRF/)
 
-1.   Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach  
+1.  Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach  
 **Liyuan Liu**\*, Xiang Ren\*, Qi Zhu, Shi Zhi, Huan Gui, Heng Ji, Jiawei Han  
 *EMNLP 2017 (long, oral)* [[paper]](https://arxiv.org/abs/1707.00166) [[code]](https://github.com/LiyuanLucasLiu/ReHession) [[slides]](https://liyuanlucasliu.github.io/ReHession/resources/ReHession.pdf) [[blog]](https://liyuanlucasliu.github.io/ReHession/)
 

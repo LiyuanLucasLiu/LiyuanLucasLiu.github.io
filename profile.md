@@ -62,6 +62,21 @@ Mining knowledge from unlabeled text, then using such knowledge to enhance Natur
 ## Professional Experience
 
 <ul class="timeline">
+
+  <li class="timeline-event">
+    <label class="timeline-event-icon"></label>
+    <div class="timeline-event-copy">
+      <p class="timeline-event-thumbnail"> May 2018 - August 2018</p>
+      <p><strong>AllenNLP @ AI2</strong><br>
+      </p>
+      <ul class="awards">
+        <li>
+            Intern, Advisor: Dr. Matthew E Peters
+        </li>
+      </ul>
+    </div>
+  </li>
+
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
