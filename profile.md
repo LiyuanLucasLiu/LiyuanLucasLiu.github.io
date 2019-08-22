@@ -66,12 +66,26 @@ Mining knowledge from unlabeled text, then using such knowledge to enhance Natur
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
+      <p class="timeline-event-thumbnail"> May 2019 - August 2019</p>
+      <p><strong>D365 AI @ Microsoft</strong><br>
+      </p>
+      <ul class="awards">
+        <li>
+            Research Intern, Advisor: Dr. Weizhu Chen
+        </li>
+      </ul>
+    </div>
+  </li>
+
+  <li class="timeline-event">
+    <label class="timeline-event-icon"></label>
+    <div class="timeline-event-copy">
       <p class="timeline-event-thumbnail"> May 2018 - August 2018</p>
       <p><strong>AllenNLP @ AI2</strong><br>
       </p>
       <ul class="awards">
         <li>
-            Intern, Advisor: Dr. Matthew E Peters
+            Research Intern, Advisor: Dr. Matthew E Peters
         </li>
       </ul>
     </div>
@@ -99,7 +113,7 @@ Mining knowledge from unlabeled text, then using such knowledge to enhance Natur
       </p>
       <ul class="awards">
         <li>
-            Intern, Advisor: Dr. Ruihua Song
+            Research Intern, Advisor: Dr. Ruihua Song
         </li>
       </ul>
     </div>
