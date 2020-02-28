@@ -18,25 +18,25 @@ organizations:
   url: "https://cs.illinois.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Understand the underlying mechanism of neural NLP models & Make the training more automatic, robust, and thus more resource-economical. }.
+bio: Understand the underlying mechanism of neural NLP models & Make the training more automatic, robust, and thus more resource-economical.
 
 interests:
 - NLP, deep learning, data mining
-- Adapt to various domains
-- Adapt to various supervisions
-- Adapt to various configurations
+- Explore models‘ mechanisms
+- Automate training & inference
 
 education:
   courses:
   - course: Ph.D. in Computer Science
     institution: University of Illinois at Urbana-Champaign
     year: expected 2021
-  - course: BS in Computer Science
+  - course: B.Eng. in Computer Science
     institution: University of Science and Technology of China
     year: 2016
-  - course: High School Diploma
-    institution: High School of NWNU, 西北师大附中
-    year: 2012
+
+#  - course: High School Diploma
+#    institution: High School of NWNU, 西北师大附中
+#    year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -74,10 +74,20 @@ email: "llychinalz@gmail.com"
 # - Visitors
 
 ---
-My name is Liyuan LIU (刘力源 in Chinese). Feel free to call me Lucas. I am pursuing a [Ph.D. in Data Mining and Information Systems](http://dm1.cs.uiuc.edu/) at UIUC, advised by [Prof. Jiawei Han](http://hanj.cs.illinois.edu/). I aim to design **adaptive algorithms** for **Resource-Economical mechine learning** -- with a deeper understanding on the underlying mechanisms, algorithms can **self-adapt to heterogeneous scenarios**, which makes learning more **automatic**, **robust**, and thus **resource-economical**.
 
-Other things about me: Rookie Skier, [DJI](https://www.wikiwand.com/en/DJI) Fans (proudly), [Sheng Ji (双扣)](https://www.wikiwand.com/en/Sheng_ji) Fans, [Mafia (狼人杀)](https://www.wikiwand.com/en/Werewolf_(social_deduction_game)) Fans, and [Texas Hold'em](https://www.wikiwand.com/en/Texas_hold_%27em) Fans.  
+<!--  from the [DMG Lab](http://dm1.cs.uiuc.edu/).  -->
 
-I am open to **collaborations** and **research internship** (summer 2020, 2021)
+Welcome to Lucas Liyuan Liu (刘力源)'s webpage! I am a Ph.D. student at [the University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu/), advised by [Prof. Jiawei Han](http://hanj.cs.illinois.edu/).
+I received B.Eng. from [the University of Science and Technology of China (USTC)](http://www.ustc.edu.cn/), majoring in Computer Science. 
+My undergraduate advisor is [Prof. Linli Xu](http://staff.ustc.edu.cn/~linlixu/).
 
-**If you are to visit UIUC, please let me buy you a coffee <i class="far fa-smile-wink"></i>**
+If you are to visit UIUC, please let me buy you a bubble tea <i class="far fa-smile-wink"></i>. PS: my favorites are [House Milk Teak](https://www.latealounge.com/home) and [Black Sugar Milk Teak (w. no additional sugar)](https://www.yelp.com/biz/teamoji-champaign).
+
+
+<!-- I am open to collaborations and research internship (summer 2020, 2021)
+ -->
+
+<!-- My name is Liyuan LIU (刘力源 in Chinese). Feel free to call me Lucas. 
+I am pursuing a [Ph.D. in Data Mining and Information Systems](http://dm1.cs.uiuc.edu/) at UIUC, advised by [Prof. Jiawei Han](http://hanj.cs.illinois.edu/). 
+I aim to design **adaptive algorithms** for **Resource-Economical mechine learning** -- with a deeper understanding on the underlying mechanisms, algorithms can **self-adapt to heterogeneous scenarios**, which makes learning more **automatic**, **robust**, and thus **resource-economical**.
+ -->

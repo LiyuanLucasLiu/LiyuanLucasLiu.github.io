@@ -16,7 +16,7 @@ menu_title = "#fff"
 # Backgrounds
 
 background = "#fff"
-home_section_odd = "#fff"
-home_section_even = "#fff"
+home_section_odd = "#FFF"
+home_section_even = "rgb(234, 242, 250)"
 
-dark_home_section_even = true
+font = "rose"
