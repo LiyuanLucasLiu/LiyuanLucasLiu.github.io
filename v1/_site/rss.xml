@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+        <title>Liyuan Liu's Blog</title>
+        <description>Liyuan Liu's Blog - LiyuanLiu</description>
+        <link>LiyuanLucasLiu.github.io</link>
+        <atom:link href="LiyuanLucasLiu.github.io/rss.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 15 Nov 2017 16:06:43 -0600</lastBuildDate>
+        <pubDate>Wed, 15 Nov 2017 16:06:43 -0600</pubDate>
+        <ttl>60</ttl>
+
+
+        <item>
+                <title>Bugs &amp; Pitfalls I've met</title>
+                <description>&lt;h1 id=&quot;pytorch&quot;&gt;PyTorch&lt;/h1&gt;
+
+&lt;h2 id=&quot;lstm&quot;&gt;LSTM&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The LSTM takes &lt;code class=&quot;highlighter-rouge&quot;&gt;[Seq_len * Batch_size * Hidden_size]&lt;/code&gt; as input, but embedding usually outputs &lt;code class=&quot;highlighter-rouge&quot;&gt;[Batch_size * Seq_len * Hidden_size]&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The output of LSTM is &lt;code class=&quot;highlighter-rouge&quot;&gt;output, (h, c)&lt;/code&gt;, where &lt;code class=&quot;highlighter-rouge&quot;&gt;(h, c)&lt;/code&gt; is a tuple. So, we should use it as &lt;code class=&quot;highlighter-rouge&quot;&gt;output, _ = self.word_lstm(x)&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                <link>LiyuanLucasLiu.github.io/summary/2017/11/bugs.html</link>
+                <guid>LiyuanLucasLiu.github.io/summary/2017/11/bugs</guid>
+                <pubDate>Tue, 14 Nov 2017 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Tools and Environment Setup</title>
+                <description>&lt;p&gt;I found lots of tools and apps and tricks quite useful. Most of them are really well-known. Still I tried to list all free ones I knew, just in case someone happens to ignore one or two in the past.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/wting/autojump&quot;&gt;Autojump&lt;/a&gt;: a cd commands that learns, extremely useful, everyone loves it after using&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh&quot;&gt;oh-my-zsh&lt;/a&gt;: zsh configuration manager. Basically it helps you to decorate your terminal and makes it professional (looks like). I found the git plug-in quite useful&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/tmux/tmux/wiki&quot;&gt;tmux&lt;/a&gt;: this tool is sooooo useful and well-known. Try it now if you haven’t.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime&lt;/a&gt;: I found it quite enjoyable to write code with sublime. Never forgot to install &lt;a href=&quot;https://packagecontrol.io/installation&quot;&gt;package control&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/SublimeText/LaTeXTools&quot;&gt;LatexTool&lt;/a&gt;: a plug-in for sublime. YOu can install it from package control, write latex in sublime, support lots of features and configuration.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://wbond.net/sublime_packages/sftp&quot;&gt;Sublime SFTP&lt;/a&gt;: sync file from desktop and server, very easy to use and extremely useful.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://coderwall.com/p/ohk6cg/remote-access-to-ipython-notebooks-via-ssh&quot;&gt;IPython&lt;/a&gt;: you can open an IPython notebook running on a remote computer. This trick is kind-of well-known, but still someone doesn’t know it. Similar tricks can also be applied to iTorch.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyllrb&lt;/a&gt;: generating sites from markdown. I think the best choice to build up a blog is to use this tool and &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github page&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.mendeley.com/newsfeed/&quot;&gt;Mendeley&lt;/a&gt;: managing pdfs and papers for you. It can automatically sync and rename pdfs for you.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/noamraph/tqdm&quot;&gt;tqdm&lt;/a&gt;: a python package, which adds a progress meter to your loops in a second&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/cupy/cupy&quot;&gt;cupy&lt;/a&gt;: NumPy-like API accelerated with CUDA&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/NVIDIA/pynvrtc&quot;&gt;pynvrtc&lt;/a&gt;: python binding of c based cuda function&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/hustcc/canvas-nest.js/&quot;&gt;canvas-nest&lt;/a&gt;: A nest backgroud of website draw on canvas.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://fontawesome.io/&quot;&gt;awesome-font&lt;/a&gt;: The iconic font and CSS toolkit.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <link>LiyuanLucasLiu.github.io/report/2017/09/tools-0.html</link>
+                <guid>LiyuanLucasLiu.github.io/report/2017/09/tools-0</guid>
+                <pubDate>Sat, 16 Sep 2017 00:00:00 -0500</pubDate>
+        </item>
+
+        <item>
+                <title>EMNLP 2017 Report</title>
+                <description>&lt;p&gt;I would attend the EMNLP 2017 conference and present our Relation Extraction Paper. Also I’m planning to write a EMNLP 2017 report (still a draft).&lt;/p&gt;
+
+&lt;p&gt;Now let’s quickly go-through some interesting papers of this EMNLP conference.&lt;/p&gt;
+
+&lt;h3 id=&quot;rotatedword-vector-representations-and-their-interpretability&quot;&gt;RotatedWord Vector Representations and their Interpretability&lt;/h3&gt;
+&lt;p&gt;Basic Idea: rotate embedding vectors into a new space, and improve the interpretability
+Rotation is conducted by matrix rotation, and trained to encourage the sparsity of vectors.
+Interesting thing is the objective function they used is not l1 norm, but another techniques (called the row and the column complexity of the matrix).
+The author says the l1 norm is used in a previous study for similar scenario, but they have not tried it here&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-chinese-word-representations-from-glyphs-of-characters&quot;&gt;Learning Chinese Word Representations From Glyphs Of Characters.&lt;/h3&gt;
+&lt;p&gt;Basic Idea: treat Chinese character as image and use CNN to extract features. 
+Not like other languages, ChineseWord has the hint of its semantic meaning on the way it looks.
+This method proposed to used autoencoder/decoder framework to train the CNN, and add its representation to word embedding and char embedding.
+The case study is quite cool, but the improvement is not very significant.
+Besides, the author did not compare to embedding of higher dimension, which i guess would be not better or even worse.
+Related Work: Learning Character-level Compositionality with Visual Features&lt;/p&gt;
+
+&lt;h3 id=&quot;ngram2vec-learning-improved-word-representations-from-ngram-co-occurrence-statistics&quot;&gt;Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics&lt;/h3&gt;
+&lt;p&gt;Basic Idea: incorporating phrase-manner information by means of Ngram.&lt;/p&gt;
+
+&lt;h3 id=&quot;vecshare-a-framework-for-sharing-word-representation-vectors&quot;&gt;VecShare: A Framework for Sharing Word Representation Vectors&lt;/h3&gt;
+&lt;p&gt;Basic Idea: a software, maybe should give some try&lt;/p&gt;
+
+&lt;h3 id=&quot;word-embeddings-based-on-fixed-size-ordinally-forgetting-encoding&quot;&gt;Word Embeddings based on Fixed-Size Ordinally Forgetting Encoding&lt;/h3&gt;
+&lt;p&gt;Basic Idea: encode recurrent information by means of encoding, interesting paper.
+Cons: cannot capture long-term dependency
+Pros: could be efficient&lt;/p&gt;
+
+&lt;h3 id=&quot;unsupervised-pretraining-for-sequence-to-sequence-learning&quot;&gt;Unsupervised Pretraining for Sequence to Sequence Learning&lt;/h3&gt;
+&lt;p&gt;Basic Idea: use language model to pretrain autoencoder/decoder, and conducts the fine-tuning
+Definitely would check this paper from Google Brain&lt;/p&gt;
+
+&lt;h3 id=&quot;incremental-skip-gram-model-with-negative-sampling&quot;&gt;Incremental Skip-gram Model with Negative Sampling&lt;/h3&gt;
+&lt;p&gt;Basic Idea: conduct sgns learning in an incremental manner. Not sure why original method cannot, maybe the author induced some bounds.&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-whats-easy-fully-differentiable-neural-easy-first-taggers&quot;&gt;Learning What’s Easy: Fully Differentiable Neural Easy-First Taggers&lt;/h3&gt;
+&lt;p&gt;Basic Idea: first generate a sketch, then conduct the decoding based on the order indicated by the sketch.
+Seems complicated, asked the author about some details, but still have lots of things to check from the paper.
+Related work: Easy-first pos tagging and dependency parsing with beam search (ACL 13)
+Related work: Bidirectional inference with the easiest-first strategy for tagging sequence data (HLT-EMNLP 05)&lt;/p&gt;
+
+&lt;h3 id=&quot;segmentation-free-word-embedding-for-unsegmented-languages&quot;&gt;Segmentation-Free Word Embedding for Unsegmented Languages&lt;/h3&gt;
+&lt;p&gt;Basic Idea: replacing chunking with n-gram&lt;/p&gt;
+
+&lt;h3 id=&quot;word-context-character-embeddings-for-chinese-word-segmentation&quot;&gt;Word-Context Character Embeddings for Chinese Word Segmentation&lt;/h3&gt;
+&lt;p&gt;Basic Idea: use not only word but also labels as the context information. The resulting embeddings are used as pre-trained embedding layer.
+It also leveraging automatically labeled large-scale data&lt;/p&gt;
+
+&lt;h3 id=&quot;cross-lingual-character-level-neural-morphological-tagging&quot;&gt;Cross-lingual, Character-Level Neural Morphological Tagging&lt;/h3&gt;
+&lt;p&gt;Basic Idea: LSTMs not generalize well from limited data, so train a low-resource tagger jointly on related high-resource language. 
+Techs: Language-specific softmax for tag prediction, predict not only the tag, but also the language (similar to GAN?)&lt;/p&gt;
+
+&lt;h3 id=&quot;evaluating-hierarchies-of-verb-argument-structure-with-hierarchical-clustering&quot;&gt;Evaluating Hierarchies of Verb Argument Structure with Hierarchical Clustering&lt;/h3&gt;
+&lt;p&gt;Basic Idea: hierarchy obtained from Bayesian Hierarchical Clustering
+related works (on EMNLP 2017):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A Short Survey on Taxonomy Learning from Text Corpora: Issues, Resources and Recent Advances&lt;/li&gt;
+  &lt;li&gt;Grasping the Finer Point: A Supervised Similarity Network for Metaphor Detection&lt;/li&gt;
+  &lt;li&gt;Adapting Topic Models using Lexical Associations with Tree Priors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;neural-machine-translation-leveraging-phrase-based-models-in-a-hybird-search&quot;&gt;Neural Machine Translation Leveraging Phrase-based Models in a Hybird Search&lt;/h3&gt;
+&lt;p&gt;Basic Idea: Beam search on two buckets, on corresponding word, the other corresponding to phrases&lt;/p&gt;
+
+&lt;h3 id=&quot;relation-extraction&quot;&gt;Relation Extraction&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Adversarial Training for Relation Extraction
+  using adversarial training to improve the ability to generalize, similar to dropout, but more intelligent&lt;/li&gt;
+  &lt;li&gt;Global Normalization of Convolutional Neural Networks for Joint Entity and Relation Classification&lt;/li&gt;
+  &lt;li&gt;Deep Residual Learning for Weakly-Supervised Relation Extraction&lt;/li&gt;
+  &lt;li&gt;Noise-Clustered Distant Supervision for Relation Extraction: A Nonparametric Bayesian Perspective&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;inducing-semantic-micro-clusters-from-deep-multi-view-representation-of-novels&quot;&gt;Inducing Semantic Micro-Clusters from Deep Multi-View Representation of Novels&lt;/h3&gt;
+&lt;p&gt;Basic Idea: clustering from multi-view embedding&lt;/p&gt;
+
+&lt;h3 id=&quot;syllable-aware-neural-language-model-a-failure-to-beat-character-aware-ones&quot;&gt;Syllable-Aware Neural Language Model: A Failure to Beat Character-Aware Ones&lt;/h3&gt;
+
+&lt;h3 id=&quot;crowd-in-the-loop-a-hybrid-approach-for-annotating-semantic-roles&quot;&gt;CROWD-IN-THE-LOOP: A Hybrid Approach for Annotating Semantic Roles&lt;/h3&gt;
+&lt;p&gt;Basic Idea: Improvement over crowd-sourcing, which identify the difficulty of tasks, and decide to assigning to experts or crowd&lt;/p&gt;
+
+&lt;h3 id=&quot;reference-aware-lanugage-models&quot;&gt;Reference-Aware Lanugage Models&lt;/h3&gt;
+&lt;p&gt;Basic Idea: Leveraging Reference&lt;/p&gt;
+
+&lt;h3 id=&quot;when-to-finish-optimal-beams-search-for-neural-text-generation&quot;&gt;When to Finish? Optimal Beams Search for Neural Text Generation&lt;/h3&gt;
+
+&lt;h3 id=&quot;steering-output-style-and-topics-in-neural-response-generation&quot;&gt;Steering Output Style and Topics in Neural Response Generation&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Both human experts and public knowledge bases can provide (indirect, weak) supervision for information extraction (e.g., hand-crafted rules, distant supervision, etc.). How to leverage these heterogenous supervisions (on same set of instances) in a principled way? Our EMNLP 2017 paper with Liu Lucas Liyuan, Heng Ji, Jiawei Han formulates a joint objective to unify representation learning (on relation extraction) and truth finding (on labels).&lt;br /&gt;
+Project page: https://liyuanlucasliu.github.io/ReHession/&lt;br /&gt;
+Paper: https://arxiv.org/pdf/1707.00166.pdf&lt;br /&gt;
+Github: https://github.com/LiyuanLucasLiu/ReHession&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <link>LiyuanLucasLiu.github.io/report/2017/09/travel-plan.html</link>
+                <guid>LiyuanLucasLiu.github.io/report/2017/09/travel-plan</guid>
+                <pubDate>Tue, 05 Sep 2017 00:00:00 -0500</pubDate>
+        </item>
+
+        <item>
+                <title>Hello World!</title>
+                <description>&lt;p&gt;As idea can only be generated from ideas, I finally set up this blog. 
+Although it’s almost my first time to try Git Page, it’s supervisingly easy to use.
+So I would encourage every one to share their thoughts through this cite.&lt;/p&gt;
+
+&lt;p&gt;For me, to be honest, I’m kind of dilatory… So… it’s not likely that I would write a lot of stuff here, but still I would try my best.&lt;/p&gt;
+
+&lt;p&gt;I plan to write several kinds of stuff:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;My research&lt;/li&gt;
+  &lt;li&gt;Conference report &amp;amp; reading notes&lt;/li&gt;
+  &lt;li&gt;Basic stuff &amp;amp; tools&lt;/li&gt;
+  &lt;li&gt;Random things&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Recently, I would try to find sometime and write something about my ICDM 15 paper.
+Although it’s kind of a old paper, I really likes it, and want to introduce it to more people.
+Besides, I plan to write a EMNLP travel report after coming back.&lt;/p&gt;
+</description>
+                <link>LiyuanLucasLiu.github.io/news/2017/09/first-blog.html</link>
+                <guid>LiyuanLucasLiu.github.io/news/2017/09/first-blog</guid>
+                <pubDate>Tue, 05 Sep 2017 00:00:00 -0500</pubDate>
+        </item>
+
+
+</channel>
+</rss>
