@@ -7,7 +7,7 @@ abstract: "With the recent advances in information networks, the problem of iden
 featured: false
 publication: "*the 2015 IEEE International Conference on Data Mining (ICDM 2015)*"
 tags: ["Clustering", "Propagation"]
-url_pdf: "files/liu-community-2015-2017.pdf"
+url_pdf: "files/liu-community-2015.pdf"
 url_code: "https://github.com/LiyuanLucasLiu/Content-Propagation"
 ---
 
