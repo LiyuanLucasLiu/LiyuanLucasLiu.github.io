@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/publication_types/3/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>3</title>
+      <link>https://liyuanlucasliu.github.io/publication_types/3/</link>
+    </image>
+    
+    <item>
+      <title>Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling</title>
+      <link>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facet-Aware Evaluation for Extractive Text Summarization</title>
+      <link>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raw-to-End Name Entity Recognition in Social Media</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-raw-end-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-raw-end-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expert Finding in Heterogeneous Bibliographic Networks with Locally-trained Embeddings</title>
+      <link>https://liyuanlucasliu.github.io/publication/gui-expert-2018/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/gui-expert-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contrast Subgraph Mining from Coherent Cores</title>
+      <link>https://liyuanlucasliu.github.io/publication/shang-contrast-2018/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/shang-contrast-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Clustering with Dynamic Embedding</title>
+      <link>https://liyuanlucasliu.github.io/publication/yang-graph-2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/yang-graph-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wikidata Vandalism Detection - The Loganberry Vandalism Detector at WSDM Cup 2017</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhu-wikidata-2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhu-wikidata-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

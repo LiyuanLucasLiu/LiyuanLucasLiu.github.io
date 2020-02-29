@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiaming Shen | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/authors/jiaming-shen/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/authors/jiaming-shen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jiaming Shen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Jiaming Shen</title>
+      <link>https://liyuanlucasliu.github.io/authors/jiaming-shen/</link>
+    </image>
+    
+    <item>
+      <title>Constructing and Mining Heterogeneous Information Networks from Massive Text</title>
+      <link>https://liyuanlucasliu.github.io/publication/shang-constructing-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/shang-constructing-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wikidata Vandalism Detection - The Loganberry Vandalism Detector at WSDM Cup 2017</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhu-wikidata-2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhu-wikidata-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
