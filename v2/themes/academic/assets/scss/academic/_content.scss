@@ -87,7 +87,7 @@ article {
 .article-metadata {
   margin-bottom: 15px;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 0.03em;
   color: rgba(0,0,0,0.54);
 }
@@ -217,7 +217,7 @@ article .article-metadata {
  **************************************************/
 
 .share-box {
-  margin-top: 0.7rem;
+  float: right;
 }
 
 ul.share {
@@ -233,7 +233,7 @@ ul.share {
 
 ul.share li {
   display: inline-flex;
-  margin-right: 8px;
+  margin-right: 3px;
 }
 
 ul.share li:last-of-type {

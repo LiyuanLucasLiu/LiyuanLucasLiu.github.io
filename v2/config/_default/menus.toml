@@ -15,9 +15,22 @@
   weight = 20
 
 [[main]]
+  identifier = "main_pub"
   name = "Publications"
   url = "#publications"
+  weight = 25
+
+[[main]]
+  name = "Selected"
+  url = "#publications"
   weight = 30
+  parent = "main_pub"
+  
+[[main]]
+  name = "Full List"
+  url = "publication/"
+  weight = 35
+  parent = "main_pub"
 
 [[main]]
   name = "Posts"
@@ -36,6 +49,7 @@
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+
 [[main]]
   name = "CV"
   url = "files/resume.pdf"

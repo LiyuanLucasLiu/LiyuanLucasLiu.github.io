@@ -15,7 +15,7 @@ subtitle = "<a href='publication/'>List of all publications >>>> </a>"
   page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 7
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -25,7 +25,7 @@ subtitle = "<a href='publication/'>List of all publications >>>> </a>"
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = ""
+    tag = "Selected"
     category = ""
     publication_type = ""
     exclude_featured = false
@@ -36,7 +36,7 @@ subtitle = "<a href='publication/'>List of all publications >>>> </a>"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 1
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -66,6 +66,4 @@ subtitle = "<a href='publication/'>List of all publications >>>> </a>"
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+\* indicates equal contribution. 

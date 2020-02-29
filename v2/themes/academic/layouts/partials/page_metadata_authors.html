@@ -2,17 +2,31 @@
 
 {{ $taxonomy := "authors" }}
 {{ with .Param $taxonomy }}
-  {{ $link_authors := site.Params.link_authors | default true }}
+<!--   {{ $link_authors := site.Params.link_authors | default true }} -->
+  {{- $buffer := "" }}
+
   {{ range $index, $value := . }}
-    {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy (. | anchorize)) -}}
-    {{- $name := $profile_page.Params.name | default ($value|markdownify) -}}
-    {{- if gt $index 0 }}, {{ end -}}
     <span>
-      {{- if and $profile_page $link_authors -}}
-        <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
+      {{- if and (eq $buffer "Liyuan Liu*") -}}
+        <strong> {{$buffer}} </strong>
+      {{- else if and (eq $buffer "Liyuan Liu") -}}
+        <strong> {{$buffer}} </strong>
       {{- else -}}
-        {{$name}}
+        {{$buffer}}
       {{- end -}}
+      {{- if gt $index 0 }}, {{ end -}}
+      {{- $buffer = $value -}}
     </span>
   {{- end -}}
+
+  <span>
+    {{- if and (eq $buffer "Liyuan Liu*") -}}
+      <strong> and {{$buffer}} </strong>
+    {{- else if and (eq $buffer "Liyuan Liu") -}}
+      <strong> and {{$buffer}} </strong>
+    {{- else -}}
+      and {{$buffer}}
+    {{- end -}}
+  </span>
+
 {{ end }}
