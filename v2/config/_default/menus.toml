@@ -32,14 +32,14 @@
   weight = 35
   parent = "main_pub"
 
-[[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 40
+# [[main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 40
 
 [[main]]
-  name = "Services"
-  url = "#services"
+  name = "Activities"
+  url = "#activity"
   weight = 60
 
 [[main]]

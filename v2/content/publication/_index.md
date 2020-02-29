@@ -1,5 +1,6 @@
 ---
 title: Publications
+subtitle: " All publications and implementations are made publicly available. If you cannot obtain a particular resource, feel free to drop me an email. "
 
 # View.
 #   1 = List
@@ -13,3 +14,4 @@ header:
   caption: ""
   image: ""
 ---
+

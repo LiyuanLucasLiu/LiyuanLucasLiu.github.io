@@ -93,7 +93,7 @@ address = {street = "201 N. Goodwin Avenue", city = "Urbana", region = "IL", pos
 coordinates = {latitude = "40.113928", longitude = "-88.224825"}
 
 # Directions for visitors to locate you.
-directions = "RM 2119B on Floor 2"
+# directions = "RM 2119B on Floor 2"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -107,8 +107,7 @@ appointment_url = ""
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "Twitter ID: LiyuanLucas", link = "https://twitter.com/LiyuanLucas"},
-  {icon = "skype", icon_pack = "fab", name = "Skype ID: live:llychinalz", link = "live:llychinalz?call"},
-  {icon = "weixin", icon_pack = 'fab', name = "WeChat ID: llychinalz", }
+  {icon = "skype", icon_pack = "fab", name = "Skype ID: live:llychinalz", link = "live:llychinalz?call"}
   ]
 
 ############################

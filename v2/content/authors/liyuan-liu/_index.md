@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D. Candidate @ DMG, UIUC
+role: Ph.D. Candidate @ DMG
 
 # [DMG](http://dm1.cs.uiuc.edu/), [UIUC](https://cs.illinois.edu/)
 
@@ -83,7 +83,7 @@ Welcome to Lucas Liyuan Liu (刘力源)'s webpage! I am a Ph.D. student at [the 
 I received B.Eng. from [the University of Science and Technology of China (USTC)](http://www.ustc.edu.cn/), majoring in Computer Science. 
 My undergraduate advisor is [Prof. Linli Xu](http://staff.ustc.edu.cn/~linlixu/).
 
-If you are to visit UIUC, please let me buy you a bubble tea <i class="far fa-smile-wink"></i>. PS: my favorites are [House Milk Teak](https://www.latealounge.com/home) and [Black Sugar Milk Teak (w. no additional sugar)](https://www.yelp.com/biz/teamoji-champaign).
+If you are going to visit UIUC, please let me buy you a bubble tea <i class="far fa-smile-wink"></i>. PS: [House Milk Teak](https://www.latealounge.com/home) and [Black Sugar Milk Teak (w. no additional sugar)](https://www.yelp.com/biz/teamoji-champaign) are pretty good.
 
 
 <!-- I am open to collaborations and research internship (summer 2020, 2021)
