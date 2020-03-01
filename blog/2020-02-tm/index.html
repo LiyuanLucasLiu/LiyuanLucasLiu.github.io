@@ -711,8 +711,8 @@ Time Machine is a useful program, however, its speed could be deadly slow if you
 <p>After many trial and error attempts, my current solution is:</p>
 <ul>
 <li>use 
-<a href="https://nextcloud.com/" target="_blank" rel="noopener">NextCloud</a> to sync codes, images, and other non-application non-system files. If you are also a synology user, this platform is much better than Drive 2.0;</li>
-<li>use Time Machine to backup only system files and applications, with the speed-up setting as below.</li>
+<a href="https://nextcloud.com/" target="_blank" rel="noopener">NextCloud</a> to sync codes, images, and other non-application non-system files. If you are also a Synology user, this platform is much better than Drive 2.0;</li>
+<li>use Time Machine to backup only system files and applications, with the speed-up setting as below (use the <strong>SMB</strong> protocol instead of the <strong>AFP</strong> protocol for Synology).</li>
 </ul>
 <p>Even only a small portion of my files (~100 Gb) is handled by Time Machine, they could be a very slow 100 Gb without speeding up.
 The reason is the system sets an upper bound on the performance of Time Machine by default.
