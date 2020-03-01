@@ -33,7 +33,22 @@
   </url>
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/authors/jingbo-shang/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication/shang-nettaxo-2020/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/network/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,7 +83,17 @@
   </url>
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/authors/sha-li/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/tags/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/taxonomies/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -84,6 +109,11 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/xiaodong-liu/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/xinyang-zhang/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -109,11 +139,6 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/jiacheng-liu/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/authors/jingbo-shang/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -284,11 +309,6 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/jiaming-shen/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/tags/network/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -523,6 +543,21 @@
   </url>
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/tags/heterogeneous-supervision/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication/liu-heterogeneous-2017/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/shi-zhi/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/authors/chao-zhang/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -582,23 +617,11 @@
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/tags/heterogeneous-supervision/</loc>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/publication/liu-heterogeneous-2017/</loc>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/post/</loc>
   </url>
   
   <url>
     <loc>https://liyuanlucasliu.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/authors/shi-zhi/</loc>
   </url>
   
 </urlset>

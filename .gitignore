@@ -4,3 +4,10 @@
 # Hugo
 resources/
 public/
+
+# Disabled Contents
+admin/
+talk/
+authors/
+!authors/liyuan-liu
+categories/
