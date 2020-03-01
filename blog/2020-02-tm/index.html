@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Liyuan Liu">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Time Machine, why are you sooo slooow and how to speed you up.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://liyuanlucasliu.github.io/blog/2020-02-tm/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#E94A36">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_huf8c3f0a9c54db469e58ad7146e34a4a2_11050_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf8c3f0a9c54db469e58ad7146e34a4a2_11050_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://liyuanlucasliu.github.io/blog/2020-02-tm/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@LiyuanLucas">
+  <meta property="twitter:creator" content="@LiyuanLucas">
+  
+  <meta property="og:site_name" content="Liyuan Liu">
+  <meta property="og:url" content="https://liyuanlucasliu.github.io/blog/2020-02-tm/">
+  <meta property="og:title" content="How to Save You (Make You Fast), Time Machine | Liyuan Liu">
+  <meta property="og:description" content="Time Machine, why are you sooo slooow and how to speed you up."><meta property="og:image" content="https://liyuanlucasliu.github.io/img/avatar.jpg">
+  <meta property="twitter:image" content="https://liyuanlucasliu.github.io/img/avatar.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-02-29T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-02-29T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>How to Save You (Make You Fast), Time Machine | Liyuan Liu</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Liyuan Liu (Lucas)</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><p>Liyuan Liu</p></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#goal"><span>Goal</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Publications</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="/#publications"><span>Selected</span></a>
+            
+              <a class="dropdown-item" href="/publication/"><span>Full List</span></a>
+            
+          </div>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#activity"><span>Activities</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/resume.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+    </div>
+
+
+
+
+
+      
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>How to Save You (Make You Fast), Time Machine</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 29, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+
+
+  
+  <div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+        
+        
+        
+          
+        
+        
+        
+        <li>
+          <a href="https://twitter.com/intent/tweet?url=https://liyuanlucasliu.github.io/blog/2020-02-tm/&amp;text=How%20to%20Save%20You%20%28Make%20You%20Fast%29,%20Time%20Machine" target="_blank" rel="noopener" class="share-btn-twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      
+        
+        
+        
+          
+        
+        
+        
+        <li>
+          <a href="https://www.facebook.com/sharer.php?u=https://liyuanlucasliu.github.io/blog/2020-02-tm/&amp;t=How%20to%20Save%20You%20%28Make%20You%20Fast%29,%20Time%20Machine" target="_blank" rel="noopener" class="share-btn-facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+      
+        
+        
+        
+          
+        
+        
+        
+        <li>
+          <a href="mailto:?subject=How%20to%20Save%20You%20%28Make%20You%20Fast%29,%20Time%20Machine&amp;body=https://liyuanlucasliu.github.io/blog/2020-02-tm/" target="_blank" rel="noopener" class="share-btn-email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+      
+        
+        
+        
+          
+        
+        
+        
+        <li>
+          <a href="https://www.linkedin.com/shareArticle?url=https://liyuanlucasliu.github.io/blog/2020-02-tm/&amp;title=How%20to%20Save%20You%20%28Make%20You%20Fast%29,%20Time%20Machine" target="_blank" rel="noopener" class="share-btn-linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+      
+        
+        
+        
+          
+        
+        
+        
+        <li>
+          <a href="https://reddit.com/submit?url=https://liyuanlucasliu.github.io/blog/2020-02-tm/&amp;title=How%20to%20Save%20You%20%28Make%20You%20Fast%29,%20Time%20Machine" target="_blank" rel="noopener" class="share-btn-reddit">
+            <i class="fab fa-reddit-alien"></i>
+          </a>
+        </li>
+      
+        
+        
+        
+          
+        
+        
+        
+        <li>
+          <a href="https://web.whatsapp.com/send?text=How%20to%20Save%20You%20%28Make%20You%20Fast%29,%20Time%20Machine%20https://liyuanlucasliu.github.io/blog/2020-02-tm/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </li>
+      
+        
+        
+        
+          
+        
+        
+        
+        <li>
+          <a href="https://service.weibo.com/share/share.php?url=https://liyuanlucasliu.github.io/blog/2020-02-tm/&amp;title=How%20to%20Save%20You%20%28Make%20You%20Fast%29,%20Time%20Machine" target="_blank" rel="noopener" class="share-btn-weibo">
+            <i class="fab fa-weibo"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>My Macbook Pro 2015 system breaks from an unsuccessful program install, and <strong>time machine saves me</strong>, <strong>again</strong>.</p>
+<p>Data is priceless and duplication is the only way to protect it.
+Time Machine is a useful program, however, its speed could be deadly slow if you are using a remote storage (instead of directly connected via usb or other cable).</p>
+<p>After many trial and error attempts, my current solution is:</p>
+<ul>
+<li>use 
+<a href="https://nextcloud.com/" target="_blank" rel="noopener">NextCloud</a> to sync codes, images, and other non-application non-system files. If you are also a synology user, this platform is much better than Drive 2.0;</li>
+<li>use Time Machine to backup only system files and applications, with the speed-up setting as below.</li>
+</ul>
+<p>Even only a small portion of my files (~100 Gb) is handled by Time Machine, they could be a very slow 100 Gb without speeding up.
+The reason is the system sets an upper bound on the performance of Time Machine by default.
+Running the following code would save you tons of time:</p>
+<pre><code class="language-bash">sudo sysctl debug.lowpri_throttle_enabled=0
+</code></pre>
+<p>You can change it back after the first &amp; major backups with:</p>
+<pre><code class="language-bash">sudo sysctl debug.lowpri_throttle_enabled=1
+</code></pre>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/diy/">DIY</a>
+  
+  <a class="badge badge-light" href="/tags/nas/">NAS</a>
+  
+  <a class="badge badge-light" href="/tags/time-machine/">Time Machine</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-square" src="/authors/liyuan-liu/avatar_hub04b2a45f3672cfc23ff6a0d82fcba88_258742_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://liyuanlucasliu.github.io/">Liyuan Liu</a></h5>
+      <h6 class="card-subtitle">Ph.D. Candidate @ DMG</h6>
+      <p class="card-text">Understand the underlying mechanism of neural NLP models &amp; Make the training more automatic, robust, and thus more resource-economical.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/LiyuanLucas" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=RmvbkzYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.semanticscholar.org/author/Liyuan-Liu/46458310" target="_blank" rel="noopener">
+        <i class="ai ai-semantic-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/LiyuanLucasLiu" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/blog/2020-02-zotero/">Zotero, Importing from Mendeley</a></li>
+      
+      <li><a href="/blog/2020-02-k3c/">Hands Down, Best Router within 100$: K3C (which costs 30 USD)</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/python.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.c97b94000ee75a76d9bc08f5a2e44814.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <a href="http://www.hitwebcounter.com" target="_blank">
+  <img src="http://hitwebcounter.com/counter/counter.php?page=6760300&style=0006&nbdigits=8&type=page&initCount=0" title="hit counts" Alt="hit counts" style="margin-left: auto;
+  margin-right: auto">
+  </a>
+
+  <p class="powered-by">
+    Copyright © Liyuan Liu &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
