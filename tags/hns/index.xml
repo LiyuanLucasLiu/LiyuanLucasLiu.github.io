@@ -20,7 +20,8 @@
       <description>&lt;p&gt;Handshake organization donated &lt;strong&gt;$10.2MM&lt;/strong&gt; and now are giving away &lt;strong&gt;free&lt;/strong&gt; HNS (can be exchanged into BTC). I tried it my self, and got &lt;strong&gt;~700$&lt;/strong&gt; for free (except an unused ssh key).&lt;/p&gt;
 &lt;p&gt;The tutorial is available at: 
 &lt;a href=&#34;https://zhuanlan.zhihu.com/p/108215705&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhihu&lt;/a&gt;.
-I would recommend you to use an out-dated ssh key for verification, delete the key after this process, and generate a new one.&lt;/p&gt;
+I would recommend you to use an out-dated ssh key for verification (I&amp;rsquo;m using one from DM2, which has not been used for more than 6 months, according to Github).
+I delete that key after this process and generate a new one.&lt;/p&gt;
 </description>
     </item>
     
