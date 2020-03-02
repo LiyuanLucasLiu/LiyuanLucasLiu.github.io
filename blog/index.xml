@@ -5,12 +5,24 @@
     <link>https://liyuanlucasliu.github.io/blog/</link>
       <atom:link href="https://liyuanlucasliu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog -- codes are the real-world magic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Blog -- codes are the real-world magic</title>
       <link>https://liyuanlucasliu.github.io/blog/</link>
     </image>
+    
+    <item>
+      <title>They really give me ~700$ for free...</title>
+      <link>https://liyuanlucasliu.github.io/blog/2020-03-hns/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/2020-03-hns/</guid>
+      <description>&lt;p&gt;Handshake organization donated &lt;strong&gt;$10.2MM&lt;/strong&gt; and now are giving away &lt;strong&gt;free&lt;/strong&gt; HNS (can be exchanged into BTC). I tried it my self, and got &lt;strong&gt;~700$&lt;/strong&gt; for free (except an unused ssh key).&lt;/p&gt;
+&lt;p&gt;The tutorial is available at: 
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/108215705&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhihu&lt;/a&gt;.
+I would recommend you to use an out-dated ssh key for verification, delete the key after this process, and generate a new one.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to Save You (Make You Fast), Time Machine</title>
