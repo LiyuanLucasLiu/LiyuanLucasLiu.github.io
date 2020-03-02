@@ -26,6 +26,7 @@ I delete that key after this process and generate a new one.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;For error message &lt;code&gt;gyp: No Xcode or CLT version detected!&lt;/code&gt;, &lt;code&gt;xcode-select --install&lt;/code&gt; works for me.&lt;/li&gt;
 &lt;li&gt;For error message &lt;code&gt;Xcode-select: error: invalid developer directory...&lt;/code&gt;, directly delete the directory and run &lt;code&gt;xcode-select --install&lt;/code&gt; works for me.&lt;/li&gt;
+&lt;li&gt;I set fee to &lt;code&gt;0.1&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;If you want to use okex as the bitcoin wallet, here is my referral link: 
 &lt;a href=&#34;https://www.okex.com/join/1881643&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.okex.com/join/1881643&lt;/a&gt; (you can use it to cash out to your mainland account).&lt;/li&gt;
 &lt;/ul&gt;
