@@ -5,33 +5,12 @@
     <link>https://liyuanlucasliu.github.io/</link>
       <atom:link href="https://liyuanlucasliu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Liyuan Liu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Liyuan Liu</title>
       <link>https://liyuanlucasliu.github.io/</link>
     </image>
-    
-    <item>
-      <title>They really give me ~700$ for free...</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-03-hns/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-03-hns/</guid>
-      <description>&lt;p&gt;The handshake organization donated &lt;strong&gt;$10.2MM&lt;/strong&gt; and is giving away &lt;strong&gt;free&lt;/strong&gt; HNS (can be exchanged into BTC). I tried it my self, and got &lt;strong&gt;~700$&lt;/strong&gt; for free (except an unused ssh key).&lt;/p&gt;
-&lt;p&gt;The tutorial is available at: 
-&lt;a href=&#34;https://zhuanlan.zhihu.com/p/108215705&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhihu&lt;/a&gt;.
-I would recommend you to use an out-dated ssh key for verification (I&amp;rsquo;m using one from DM2, which has not been used for more than 6 months, according to Github).
-I delete that key after this process and generate a new one.&lt;/p&gt;
-&lt;p&gt;Notes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;For error message &lt;code&gt;gyp: No Xcode or CLT version detected!&lt;/code&gt;, &lt;code&gt;xcode-select --install&lt;/code&gt; works for me.&lt;/li&gt;
-&lt;li&gt;For error message &lt;code&gt;Xcode-select: error: invalid developer directory...&lt;/code&gt;, directly delete the directory and run &lt;code&gt;xcode-select --install&lt;/code&gt; works for me.&lt;/li&gt;
-&lt;li&gt;I set fee to &lt;code&gt;0.1&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;If you want to use okex as the bitcoin wallet, here is my referral link: 
-&lt;a href=&#34;https://www.okex.com/join/1881643&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;okex&lt;/a&gt; (you can use it to cash out to your mainland account).&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>How to Save You (Make You Fast), Time Machine</title>
