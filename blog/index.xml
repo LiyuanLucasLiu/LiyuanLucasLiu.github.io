@@ -5,12 +5,110 @@
     <link>https://liyuanlucasliu.github.io/blog/</link>
       <atom:link href="https://liyuanlucasliu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog -- codes are the real-world magic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Blog -- codes are the real-world magic</title>
       <link>https://liyuanlucasliu.github.io/blog/</link>
     </image>
+    
+    <item>
+      <title>NextCloud Docker Setup</title>
+      <link>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</guid>
+      <description>&lt;p&gt;I found NextCloud to be very powerful, flexible and expandable.
+Specifically, I setup NextCloud on my synology NAS via docker, manually upload my file (while will be essentially faster) for the initial sync, then use NextCloud as a combination of Dropbox and Google Drive.&lt;/p&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Setup a new network for the docker;&lt;/li&gt;
+&lt;li&gt;Setup &lt;code&gt;path&lt;/code&gt; as a folder to store data;&lt;/li&gt;
+&lt;li&gt;Using the following docker compose file to build docker images (sensitive information is masked in &lt;code&gt;&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;&lt;/code&gt;). The command for set up is &lt;code&gt;docker-compose up -d&lt;/code&gt;, and the command for update is &lt;code&gt;docker-compose pull &amp;amp;&amp;amp; docker-compose up -d&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Login with setting database to &lt;code&gt;mariadb&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;After manually uploading files to the destination, you can add files to nextcloud by &lt;code&gt;sudo -u www-data php occ files:scan --path &amp;quot;&amp;lt;username&amp;gt;/files/&amp;lt;path_under_files&amp;gt;&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;To recursively delete, use &lt;code&gt;find . -type d -name &#39;@eaDir&#39; -exec rm -r {} +&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Remember to add trusted domains.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-docker-compose.yml&#34;&gt;version: &#39;3.2&#39;
+services:
+  nextcloud:
+    image: nextcloud
+    container_name: nextcloud
+    restart: always
+    networks:
+      - net
+    ports:
+      - 3222:80
+    labels:
+      - &amp;quot;traefik.docker.network=net&amp;quot;
+      - &amp;quot;traefik.enable=true&amp;quot;
+      - &amp;quot;traefik.backend=nextcloud&amp;quot;
+      - &amp;quot;traefik.port=80&amp;quot;
+      - &amp;quot;traefik.protocol=http&amp;quot;
+      - &amp;quot;traefik.frontend.rule=Host:&amp;lt;domain name&amp;gt;&amp;quot;
+      - &amp;quot;traefik.frontend.headers.customResponseHeaders=Strict-Transport-Security:15552000&amp;quot;
+      - &amp;quot;traefik.frontend.passHostHeader=true&amp;quot;
+      - &amp;quot;traefik.frontend.redirect.permanent:true&amp;quot;
+      - &amp;quot;traefik.frontend.redirect.regex:https://(.*)/.well-known/(card|cal)dav&amp;quot;
+      - &amp;quot;traefik.frontend.redirect.replacement:https://$$1/remote.php/dav/&amp;quot;
+    depends_on:
+      - nextcloud_db
+    volumes:
+      - &amp;lt;path&amp;gt;/nextcloud:/var/www/html
+      - &amp;lt;path&amp;gt;/config:/var/www/html/config
+      - &amp;lt;path&amp;gt;/data:/var/www/html/data
+      - &amp;quot;MYSQL_HOST=nextcloud_db&amp;quot;
+      - &amp;quot;NEXTCLOUD_TRUSTED_DOMAINS=&amp;lt;domain&amp;gt;&amp;quot;
+      - &amp;quot;REDIS_HOST=nextcloud_redis&amp;quot;
+    depends_on:
+      - nextcloud_db
+      - redis
+
+  nextcloud_db:
+    image: mariadb
+    container_name: nextcloud_db
+    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
+    restart: always
+    networks:
+      - net
+    volumes:
+      - &amp;lt;path&amp;gt;/db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=&amp;lt;password&amp;gt;
+      - MYSQL_PASSWORD=&amp;lt;password&amp;gt;
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+
+  redis:
+    image: redis
+    container_name: nextcloud_redis
+    networks:
+      - net
+
+  cron:
+    image: nextcloud
+    container_name: nextcloud_cron
+    restart: always
+    networks:
+      - net
+    volumes:
+      - &amp;lt;path&amp;gt;/nextcloud:/var/www/html
+    entrypoint: /cron.sh
+    depends_on:
+      - nextcloud_db
+      - redis
+
+volumes:
+  nextcloud:
+  nextcloud_db:
+  nextcloud_cron:
+
+networks:
+  net:
+    external: true
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>How to Save You (Make You Fast), Time Machine</title>
