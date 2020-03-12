@@ -23,7 +23,7 @@ Specifically, I setup NextCloud on my synology NAS via docker, manually upload m
 &lt;ol&gt;
 &lt;li&gt;Setup a new network for the docker;&lt;/li&gt;
 &lt;li&gt;Setup &lt;code&gt;path&lt;/code&gt; as a folder to store data;&lt;/li&gt;
-&lt;li&gt;Using the following docker compose file to build docker images (sensitive information is masked in &lt;code&gt;&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;&lt;/code&gt;). The command for set up is &lt;code&gt;docker-compose up -d&lt;/code&gt;, and the command for update is &lt;code&gt;docker-compose pull &amp;amp;&amp;amp; docker-compose up -d&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Using the following docker compose file to build docker images (sensitive information is masked in &lt;code&gt;&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;&lt;/code&gt;). The command for set up is &lt;code&gt;docker-compose up -d&lt;/code&gt;, and the command for update is &lt;code&gt;sudo docker-compose pull &amp;amp;&amp;amp; sudo docker-compose up -d&lt;/code&gt;;&lt;/li&gt;
 &lt;li&gt;Login with setting database to &lt;code&gt;mariadb&lt;/code&gt;;&lt;/li&gt;
 &lt;li&gt;After manually uploading files to the destination, you can add files to nextcloud by &lt;code&gt;sudo -u www-data php occ files:scan --path &amp;quot;&amp;lt;username&amp;gt;/files/&amp;lt;path_under_files&amp;gt;&lt;/code&gt;;&lt;/li&gt;
 &lt;li&gt;To recursively delete, use &lt;code&gt;find . -type d -name &#39;@eaDir&#39; -exec rm -r {} +&lt;/code&gt;;&lt;/li&gt;

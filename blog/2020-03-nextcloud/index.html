@@ -714,7 +714,7 @@ Specifically, I setup NextCloud on my synology NAS via docker, manually upload m
 <ol>
 <li>Setup a new network for the docker;</li>
 <li>Setup <code>path</code> as a folder to store data;</li>
-<li>Using the following docker compose file to build docker images (sensitive information is masked in <code>&lt;</code> and <code>&gt;</code>). The command for set up is <code>docker-compose up -d</code>, and the command for update is <code>docker-compose pull &amp;&amp; docker-compose up -d</code>;</li>
+<li>Using the following docker compose file to build docker images (sensitive information is masked in <code>&lt;</code> and <code>&gt;</code>). The command for set up is <code>docker-compose up -d</code>, and the command for update is <code>sudo docker-compose pull &amp;&amp; sudo docker-compose up -d</code>;</li>
 <li>Login with setting database to <code>mariadb</code>;</li>
 <li>After manually uploading files to the destination, you can add files to nextcloud by <code>sudo -u www-data php occ files:scan --path &quot;&lt;username&gt;/files/&lt;path_under_files&gt;</code>;</li>
 <li>To recursively delete, use <code>find . -type d -name '@eaDir' -exec rm -r {} +</code>;</li>
