@@ -5,12 +5,28 @@
     <link>https://liyuanlucasliu.github.io/publication/</link>
       <atom:link href="https://liyuanlucasliu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Publications</title>
       <link>https://liyuanlucasliu.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Facet-Aware Evaluation for Extractive Text Summarization</title>
+      <link>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling</title>
+      <link>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>NetTaxo: Automated Topic Taxonomy Construction from Large-Scale Text-Rich Network</title>
@@ -45,26 +61,10 @@
     </item>
     
     <item>
-      <title>Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling</title>
-      <link>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Arabic Named Entity Recognition: What Works and What&#39;s Next</title>
       <link>https://liyuanlucasliu.github.io/publication/liu-arabic-2019/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/publication/liu-arabic-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Facet-Aware Evaluation for Extractive Text Summarization</title>
-      <link>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</guid>
       <description></description>
     </item>
     

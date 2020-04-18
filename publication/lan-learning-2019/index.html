@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Sequence labeling is a fundamental framework for various natural language processing problems. Its performance is largely influenced by the annotation quality and quantity in supervised learning scenarios. In many cases, ground truth labels are costly and time-consuming to collect or even non-existent, while imperfect ones could be easily accessed or transferred from different domains. In this paper, we propose a novel framework named consensus Network (ConNet) to conduct training with imperfect annotations from multiple sources. It learns the representation for every weak supervision source and dynamically aggregates them by a context-aware attention mechanism. Finally, it leads to a model reflecting the consensus among multiple sources. We evaluate the proposed framework in two practical settings of multisource learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings.">
+  <meta name="description" content="Sequence labeling is a fundamental framework for various natural language processing problems. Its performance is largely influenced by the annotation quality and quantity in supervised learning scenarios, and obtaining ground truth labels is often costly. In many cases, ground truth labels do not exist, but noisy annotations or annotations from different domains are accessible. In this paper, we propose a novel framework Consensus Network (ConNet) that can be trained on annotations from multiple sources (e.g., crowd annotation, cross-domain data...). It learns individual representation for every source and dynamically aggregates source-specific knowledge by a context-aware attention module. Finally, it leads to a model reflecting the agreement (consensus) among multiple sources. We evaluate the proposed framework in two practical settings of multi-source learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings. We also demonstrate that the method can apply to various tasks and cope with different encoders.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://liyuanlucasliu.github.io/publication/lan-learning-2019/">
@@ -234,13 +234,13 @@
   <meta property="og:site_name" content="Liyuan Liu">
   <meta property="og:url" content="https://liyuanlucasliu.github.io/publication/lan-learning-2019/">
   <meta property="og:title" content="Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling | Liyuan Liu">
-  <meta property="og:description" content="Sequence labeling is a fundamental framework for various natural language processing problems. Its performance is largely influenced by the annotation quality and quantity in supervised learning scenarios. In many cases, ground truth labels are costly and time-consuming to collect or even non-existent, while imperfect ones could be easily accessed or transferred from different domains. In this paper, we propose a novel framework named consensus Network (ConNet) to conduct training with imperfect annotations from multiple sources. It learns the representation for every weak supervision source and dynamically aggregates them by a context-aware attention mechanism. Finally, it leads to a model reflecting the consensus among multiple sources. We evaluate the proposed framework in two practical settings of multisource learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings."><meta property="og:image" content="https://liyuanlucasliu.github.io/img/avatar.jpg">
+  <meta property="og:description" content="Sequence labeling is a fundamental framework for various natural language processing problems. Its performance is largely influenced by the annotation quality and quantity in supervised learning scenarios, and obtaining ground truth labels is often costly. In many cases, ground truth labels do not exist, but noisy annotations or annotations from different domains are accessible. In this paper, we propose a novel framework Consensus Network (ConNet) that can be trained on annotations from multiple sources (e.g., crowd annotation, cross-domain data...). It learns individual representation for every source and dynamically aggregates source-specific knowledge by a context-aware attention module. Finally, it leads to a model reflecting the agreement (consensus) among multiple sources. We evaluate the proposed framework in two practical settings of multi-source learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings. We also demonstrate that the method can apply to various tasks and cope with different encoders."><meta property="og:image" content="https://liyuanlucasliu.github.io/img/avatar.jpg">
   <meta property="twitter:image" content="https://liyuanlucasliu.github.io/img/avatar.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-02-28T21:51:58&#43;00:00">
+      <meta property="article:published_time" content="2020-04-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-10-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-04-01T00:00:00&#43;00:00">
   
 
   
@@ -266,8 +266,8 @@
   },
   "headline": "Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling",
   
-  "datePublished": "2020-02-28T21:51:58Z",
-  "dateModified": "2019-10-01T00:00:00Z",
+  "datePublished": "2020-04-01T00:00:00Z",
+  "dateModified": "2020-04-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -282,7 +282,7 @@
       "url": "https://liyuanlucasliu.github.io/images/icon_huf8c3f0a9c54db469e58ad7146e34a4a2_11050_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Sequence labeling is a fundamental framework for various natural language processing problems. Its performance is largely influenced by the annotation quality and quantity in supervised learning scenarios. In many cases, ground truth labels are costly and time-consuming to collect or even non-existent, while imperfect ones could be easily accessed or transferred from different domains. In this paper, we propose a novel framework named consensus Network (ConNet) to conduct training with imperfect annotations from multiple sources. It learns the representation for every weak supervision source and dynamically aggregates them by a context-aware attention mechanism. Finally, it leads to a model reflecting the consensus among multiple sources. We evaluate the proposed framework in two practical settings of multisource learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings."
+  "description": "Sequence labeling is a fundamental framework for various natural language processing problems. Its performance is largely influenced by the annotation quality and quantity in supervised learning scenarios, and obtaining ground truth labels is often costly. In many cases, ground truth labels do not exist, but noisy annotations or annotations from different domains are accessible. In this paper, we propose a novel framework Consensus Network (ConNet) that can be trained on annotations from multiple sources (e.g., crowd annotation, cross-domain data...). It learns individual representation for every source and dynamically aggregates source-specific knowledge by a context-aware attention module. Finally, it leads to a model reflecting the agreement (consensus) among multiple sources. We evaluate the proposed framework in two practical settings of multi-source learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings. We also demonstrate that the method can apply to various tasks and cope with different encoders."
 }
 </script>
 
@@ -630,7 +630,7 @@
     
       
     
-    October 2019
+    April 2020
   </span>
   
 
@@ -793,6 +793,14 @@
 </button>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/INK-USC/ConNet" target="_blank" rel="noopener">
+  Code
+</a>
+
 
 
 
@@ -818,7 +826,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Sequence labeling is a fundamental framework for various natural language processing problems. Its performance is largely influenced by the annotation quality and quantity in supervised learning scenarios. In many cases, ground truth labels are costly and time-consuming to collect or even non-existent, while imperfect ones could be easily accessed or transferred from different domains. In this paper, we propose a novel framework named consensus Network (ConNet) to conduct training with imperfect annotations from multiple sources. It learns the representation for every weak supervision source and dynamically aggregates them by a context-aware attention mechanism. Finally, it leads to a model reflecting the consensus among multiple sources. We evaluate the proposed framework in two practical settings of multisource learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings.</p>
+    <p class="pub-abstract">Sequence labeling is a fundamental framework for various natural language processing problems. Its performance is largely influenced by the annotation quality and quantity in supervised learning scenarios, and obtaining ground truth labels is often costly. In many cases, ground truth labels do not exist, but noisy annotations or annotations from different domains are accessible. In this paper, we propose a novel framework Consensus Network (ConNet) that can be trained on annotations from multiple sources (e.g., crowd annotation, cross-domain data&hellip;). It learns individual representation for every source and dynamically aggregates source-specific knowledge by a context-aware attention module. Finally, it leads to a model reflecting the agreement (consensus) among multiple sources. We evaluate the proposed framework in two practical settings of multi-source learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings. We also demonstrate that the method can apply to various tasks and cope with different encoders.</p>
     
 
     
@@ -829,8 +837,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#3">
-              Preprint
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -846,7 +854,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>arXiv:1910.04289 [cs]</em></div>
+          <div class="col-12 col-md-9"><em>the 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>

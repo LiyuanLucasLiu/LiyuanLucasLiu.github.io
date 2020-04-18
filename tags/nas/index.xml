@@ -14,6 +14,28 @@
     
     <item>
       <title>NextCloud Docker Setup</title>
+      <link>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</guid>
+      <description>&lt;p&gt;I found NextCloud to be very powerful, flexible and expandable.
+Specifically, I setup NextCloud on my synology NAS via docker, manually upload my file (while will be essentially faster) for the initial sync, then use NextCloud as a combination of Dropbox and Google Drive.&lt;/p&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Setup a new network for the docker;&lt;/li&gt;
+&lt;li&gt;Setup &lt;code&gt;path&lt;/code&gt; as a folder to store data;&lt;/li&gt;
+&lt;li&gt;Using the following docker compose file to build docker images (sensitive information is masked in &lt;code&gt;&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;&lt;/code&gt;). The command for set up is &lt;code&gt;docker-compose up -d&lt;/code&gt;, and the command for update is &lt;code&gt;sudo docker-compose pull &amp;amp;&amp;amp; sudo docker-compose up -d&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Login with setting database to &lt;code&gt;mariadb&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;After manually uploading files to the destination, you can add files to nextcloud by &lt;code&gt;sudo -u www-data php occ files:scan --path &amp;quot;&amp;lt;username&amp;gt;/files/&amp;lt;path_under_files&amp;gt;&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;To recursively delete, use &lt;code&gt;find . -type d -name &#39;@eaDir&#39; -exec rm -r {} +&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Remember to add trusted domains.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-docker-compose.yml&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NextCloud Docker Setup</title>
       <link>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</guid>
@@ -140,29 +162,16 @@ Running the following code would save you tons of time:&lt;/p&gt;
       <link>https://liyuanlucasliu.github.io/blog/2020-02-zotero/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/blog/2020-02-zotero/</guid>
-      <description>&lt;p&gt;Since I need a router to turn the printer (gift from 
-&lt;a href=&#34;https://shangjingbo1226.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jingbo&lt;/a&gt;) into a internet printer, I did some research on cheap-but-powerful routers.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;K3C costs about &lt;strong&gt;30$&lt;/strong&gt; but performs like a &lt;strong&gt;200$&lt;/strong&gt; router.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Upgrading to the un-official firearm is highly recommended, which unlocks tons of features, including Ads-blocking, USB-printer, etc.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://blog.iytc.net/wordpress/?p=2841#comments&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A nice tutorial is available in Chinese&lt;/a&gt;.
-However, no available tutorial is for K3C-international (i.e., can be brought from U.S.).
-After some tiny-little explorations, I successfully finished the upgrade.
-Here are some notes based on my experience:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;upgrading to unofficial versions is risky; all operations are at your own risk;&lt;/li&gt;
-&lt;li&gt;the version number of international-K3C firearm is in a different serial (from the tutorial), so ignore all version information in the tutorial;&lt;/li&gt;
-&lt;li&gt;update the official firearm to the latest version, and then do the upgrade (I did this and it worked for me);&lt;/li&gt;
-&lt;li&gt;after upgrade to unofficial 1.1, please go ahead and upgrade to unofficial 1.6 (1.7 is not very stable and not recommended);&lt;/li&gt;
-&lt;li&gt;you need a windows pc for the upgrade&amp;hellip; (based on the tutorial);&lt;/li&gt;
-&lt;li&gt;some links in the tutorial page is outdated, please find the files as below:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Necessary files:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://liyuanlucasliu.github.io/files/blog-k3c/telnet.zip&#34; target=&#34;_blank&#34;&gt;Telnet Tool&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://liyuanlucasliu.github.io/files/blog-k3c/k3c_v11.tar.gz&#34; target=&#34;_blank&#34;&gt;V1.1 Firearm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://liyuanlucasliu.github.io/files/blog-k3c/k3c_v16.zip&#34; target=&#34;_blank&#34;&gt;V1.6 Firearm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      <description>&lt;p&gt;After reaching the 2 Gb free space limit of Mendeley, I did some research and decide to use Zotero as my pdf management tool.
+Different from Mendeley, Zotero supports WebDAV-based sync.&lt;/p&gt;
+&lt;p&gt;However, importing pdfs from Mendelay from Zotero is not easy, since the latest Mendelay release encrypts its database.
+Below is some notes on how to hack the importing.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;sync Mendelay to the cloud and download all pdfs.&lt;/li&gt;
+&lt;li&gt;delete the Mendelay library and app, move downloaded pdfs to a different folder;&lt;/li&gt;
+&lt;li&gt;download an old version Mendelay, sync from the cloud, and add pdfs from the previous folder;&lt;/li&gt;
+&lt;li&gt;export to zotero&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
