@@ -5,12 +5,20 @@
     <link>https://liyuanlucasliu.github.io/tags/selected/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/selected/index.xml" rel="self" type="application/rss+xml" />
     <description>Selected</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Selected</title>
       <link>https://liyuanlucasliu.github.io/tags/selected/</link>
     </image>
+    
+    <item>
+      <title>Understanding the Difficulty of Training Transformers</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-admin-2020/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-admin-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On the Variance of the Adaptive Learning Rate and Beyond</title>
