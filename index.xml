@@ -5,12 +5,20 @@
     <link>https://liyuanlucasliu.github.io/</link>
       <atom:link href="https://liyuanlucasliu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Liyuan Liu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Liyuan Liu</title>
       <link>https://liyuanlucasliu.github.io/</link>
     </image>
+    
+    <item>
+      <title>Towards Adaptive Residual Network Training: A Neural-ODE Perspective</title>
+      <link>https://liyuanlucasliu.github.io/publication/dong-lipgrow-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/dong-lipgrow-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Facet-Aware Evaluation for Extractive Text Summarization</title>
@@ -34,6 +42,70 @@
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/publication/liu-admin-2020/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>FP16 and Apex</title>
+      <link>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</guid>
+      <description>&lt;p&gt;For recent Nvidia GPUs like V100 or R8000, allowing half-precision training can get roughly 2X speedup instantly, and the only problem is &lt;strong&gt;how to conduct mixed-precision training?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unlike TPU, typical Nvidia GPUs follow the IEEE fp16 standard instead of bfp16.
+Specifically, TPU uses the bfp16 standard with 8 exponent bits and 7 mantissa bits, while fp16 has only 5 exponent bits and 10 mantissa bits.
+With less exponent bits, directly applying half-precision to deep learning leads to tons of overflow and underflow.&lt;/p&gt;
+&lt;p&gt;To compensate the loss of exponent bits, dynamic loss scaling and mixed-precision training have been proposed.
+The 
+&lt;a href=&#34;https://github.com/pytorch/fairseq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fairseq&lt;/a&gt; package comes with naive fp16 support, and for custom models and other PyTorch codebases, the 
+&lt;a href=&#34;https://github.com/NVIDIA/apex/tree/master/apex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Apex&lt;/a&gt; package is usually the go-to choice.
+Besides 
+&lt;a href=&#34;https://nvidia.github.io/apex/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the apex documentation&lt;/a&gt;, below provides some tips for mixed-precision training.&lt;/p&gt;
+&lt;h2 id=&#34;dynamic-loss-scaling&#34;&gt;Dynamic Loss Scaling&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TL;DL.
+Since it is easier to detect overflow then under, a minimal loss scale is recommended to set (e.g., 0.03125) and a small window helps to stabilize the training (e.g., 256).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Unlike underflow, the overflow can be easily detected.
+Accordingly, it is strategically benefical to make the model overflow to avoid underflow.
+Specifically, &lt;strong&gt;loss scaling&lt;/strong&gt; is proposed to first scale-up the loss and gradients by a constant, then divide the gradient by the same constant after back-propagation.
+Still, the choice of the constant is an open problem.
+&lt;strong&gt;Dynamic loss scaling&lt;/strong&gt; is leveraged to dynamically update this constant during training.
+Specifically, it starts from setting the constant to a large value, then halve its value when an overflow occurs, which indicates the constant value is probably too large.
+Also, if no overflow is detected in N continuous updates which indicates the constant could be larger, it duplicates the constant.&lt;/p&gt;
+&lt;h2 id=&#34;mixed-precision-training&#34;&gt;Mixed Precision Training&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TL;DL.
+Elementwise_affine parameters are easier to overflow and it is helpful to cast this part to fp32.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In apex, &lt;code&gt;opt_level&lt;/code&gt; can be set to &lt;code&gt;O0&lt;/code&gt; (full fp32), &lt;code&gt;O1&lt;/code&gt; (mixed precision), &lt;code&gt;O2&lt;/code&gt; (almost fp16), and &lt;code&gt;O3&lt;/code&gt; (full fp16).&lt;/li&gt;
+&lt;li&gt;To specifically cast a model to fp32:
+&lt;ul&gt;
+&lt;li&gt;set model parameters, e.g.,
+&lt;pre&gt;&lt;code&gt;for n, p in model.named_parameters():
+    if any([ki in n for ki in fp32_keys]):
+        p.float()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;cast precision conversion by monkey patching, e.g.,
+&lt;pre&gt;&lt;code&gt;orig_linear = torch.nn.functional.linear
+def wrapped_linear(*args):
+ casted_args = []
+  for arg in args:
+    if torch.is_tensor(arg) and torch.is_floating_point(arg):
+      casted_args.append(arg.float())
+    else:
+      casted_args.append(arg)
+  return orig_linear(*casted_args)
+torch.nn.functional.linear = wrapped_linear
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>

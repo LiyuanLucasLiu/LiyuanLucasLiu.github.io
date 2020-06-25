@@ -4,21 +4,91 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/liyuan-liu/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://liyuanlucasliu.github.io/publication_types/1/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/publication_types/3/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+    <loc>https://liyuanlucasliu.github.io/tags/adaptive/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/chengyu-dong/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/jingbo-shang/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/network/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/network-depth/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/network-grow/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/neural-ode/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication_types/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/selected/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication/dong-lipgrow-2020/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/zichao-li/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication_types/3/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,11 +143,6 @@
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/tags/ner/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
@@ -88,32 +153,12 @@
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/publication_types/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/publication/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/authors/qi-zhu/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/tags/selected/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/tags/stability/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/tags/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -168,12 +213,32 @@
   </url>
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/tags/fp16/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/gpu/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/tags/nas/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/pytorch/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -213,17 +278,7 @@
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/authors/jingbo-shang/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/publication/shang-nettaxo-2020/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/tags/network/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
