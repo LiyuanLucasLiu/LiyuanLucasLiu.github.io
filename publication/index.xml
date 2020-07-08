@@ -5,7 +5,7 @@
     <link>https://liyuanlucasliu.github.io/publication/</link>
       <atom:link href="https://liyuanlucasliu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Publications</title>
@@ -13,17 +13,9 @@
     </image>
     
     <item>
-      <title>Towards Adaptive Residual Network Training: A Neural-ODE Perspective</title>
-      <link>https://liyuanlucasliu.github.io/publication/dong-lipgrow-2020/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/dong-lipgrow-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Facet-Aware Evaluation for Extractive Text Summarization</title>
       <link>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</guid>
       <description></description>
     </item>
@@ -31,8 +23,16 @@
     <item>
       <title>Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling</title>
       <link>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Adaptive Residual Network Training: A Neural-ODE Perspective</title>
+      <link>https://liyuanlucasliu.github.io/publication/dong-lipgrow-2020/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/dong-lipgrow-2020/</guid>
       <description></description>
     </item>
     

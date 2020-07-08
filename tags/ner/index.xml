@@ -5,7 +5,7 @@
     <link>https://liyuanlucasliu.github.io/tags/ner/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/ner/index.xml" rel="self" type="application/rss+xml" />
     <description>NER</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>NER</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling</title>
       <link>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/publication/lan-learning-2019/</guid>
       <description></description>
     </item>
