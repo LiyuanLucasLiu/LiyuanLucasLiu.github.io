@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Environment Setup</title>
+      <title>Configuration Cheatsheet</title>
       <link>https://liyuanlucasliu.github.io/blog/2020-07-setup/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/blog/2020-07-setup/</guid>
@@ -67,7 +67,7 @@
 &lt;li&gt;Sublime:
 &lt;ul&gt;
 &lt;li&gt;install package control w &lt;code&gt;install package control&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;theme: ayu&lt;/li&gt;
+&lt;li&gt;theme: default (or ayu)&lt;/li&gt;
 &lt;li&gt;sftp: for windows: convert &lt;code&gt;ssh&lt;/code&gt; to &lt;code&gt;ppk&lt;/code&gt; with puttygen in &lt;a href=&#34;https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html&#34;&gt;https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html&lt;/a&gt;.
 &lt;ul&gt;
 &lt;li&gt;setting: &lt;code&gt;&amp;quot;ssh_key_file&amp;quot;: &amp;quot;C:/Users/Liyuan Liu - LL/.ssh/id_rsa.ppk&amp;quot;&lt;/code&gt;&lt;/li&gt;
@@ -140,6 +140,15 @@ echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.bashrc
 &lt;ul&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://github.com/koolob/rrshare&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;docker image and readme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Nvidia Geforce GPU
+&lt;ul&gt;
+&lt;li&gt;restrict base clock and temperature to protect cards:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/164907210&#34;&gt;https://zhuanlan.zhihu.com/p/164907210&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
