@@ -18,7 +18,8 @@
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/blog/2020-07-setup/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;Docker
+&lt;li&gt;
+&lt;p&gt;Docker&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Nvidia Image: 
 &lt;a href=&#34;https://docs.nvidia.com/deeplearning/tensorrt/container-release-notes/running.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TensorRT&lt;/a&gt;, 
@@ -36,7 +37,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Jupyter
+&lt;li&gt;
+&lt;p&gt;Jupyter&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://github.com/ipython-contrib/jupyter_contrib_nbextensions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupyter Extensions&lt;/a&gt;
@@ -46,14 +48,17 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Windows
+&lt;li&gt;
+&lt;p&gt;Windows&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Terminal: Termius (education account w. github student)&lt;/li&gt;
 &lt;li&gt;Windows Subsystem for Linux:
 &lt;ul&gt;
+&lt;li&gt;install:
+&lt;ul&gt;
 &lt;li&gt;run: &lt;code&gt;Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform&lt;/code&gt; in powershell w. admin&lt;/li&gt;
 &lt;li&gt;run: &lt;code&gt;Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux&lt;/code&gt; in powershell w. admin&lt;/li&gt;
-&lt;li&gt;get Ubuntu from microsoft store &amp;amp; RUN the app&lt;/li&gt;
+&lt;li&gt;get Ubuntu from microsoft store &amp;amp; RUN the app (&lt;code&gt;Ubuntu&lt;/code&gt; refers to the recommended version, should be 20.04)&lt;/li&gt;
 &lt;li&gt;run: &lt;code&gt;wsl --set-default-version 2&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Now, the ubuntu&amp;rsquo;s &lt;code&gt;bash.exe&lt;/code&gt; is available:
 &lt;ul&gt;
@@ -62,9 +67,24 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;anyconnect not working in WSL:
+&lt;ul&gt;
+&lt;li&gt;use anyconnect within the windows store. 
+&lt;a href=&#34;https://github.com/microsoft/WSL/issues/4277&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Sublime:
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Windows Terminal:
+&lt;ul&gt;
+&lt;li&gt;Configuration is saved at 
+&lt;a href=&#34;windows_terminal_settings.json&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sublime:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;install package control w &lt;code&gt;install package control&lt;/code&gt;;&lt;/li&gt;
 &lt;li&gt;theme: default (or ayu)&lt;/li&gt;
@@ -77,7 +97,8 @@
 &lt;li&gt;sidebarenhancement&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Tmux
+&lt;li&gt;
+&lt;p&gt;Tmux&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://github.com/tmux-plugins/tmux-resurrect&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;oh my tmux&lt;/a&gt;&lt;/li&gt;
@@ -101,7 +122,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;ssh
+&lt;li&gt;
+&lt;p&gt;ssh&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;generate
 &lt;ul&gt;
@@ -122,7 +144,8 @@ ssh-add idrsa
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;linux
+&lt;li&gt;
+&lt;p&gt;linux&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;check linux version: &lt;code&gt;uname -m &amp;amp;&amp;amp; cat /etc/*release&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;check cuda version:&lt;code&gt;cat /usr/local/cuda/version.txt&lt;/code&gt;&lt;/li&gt;
@@ -134,7 +157,8 @@ echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.bashrc
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
-&lt;li&gt;NAS
+&lt;li&gt;
+&lt;p&gt;NAS&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;rrshare&lt;/code&gt; with updated API
 &lt;ul&gt;
@@ -144,13 +168,32 @@ echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.bashrc
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Nvidia Geforce GPU
+&lt;li&gt;
+&lt;p&gt;Nvidia Geforce GPU&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;restrict base clock and temperature to protect cards:
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/164907210&#34;&gt;https://zhuanlan.zhihu.com/p/164907210&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PyTorch&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;solution for &lt;code&gt;Error: mkl-service + Intel(R) MKL: MKL_THREADING_LAYER=INTEL...&lt;/code&gt;:
+&lt;ul&gt;
+&lt;li&gt;python: &lt;code&gt;os.environ[&#39;MKL_THREADING_LAYER&#39;] = &#39;GNU&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;command: &lt;code&gt;MKL_THREADING_LAYER=GNU python my_script.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;env: &lt;code&gt;export MKL_THREADING_LAYER=GNU&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RStudio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;docker run -d --name rstudio -v $HOME:/home/rstudio -e PASSWORD=$PASSWORD -p 8787:8787 rocker/tidyverse&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

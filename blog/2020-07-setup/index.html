@@ -709,7 +709,8 @@
 
     <div class="article-style">
       <ul>
-<li>Docker
+<li>
+<p>Docker</p>
 <ul>
 <li>Nvidia Image: 
 <a href="https://docs.nvidia.com/deeplearning/tensorrt/container-release-notes/running.html" target="_blank" rel="noopener">TensorRT</a>, 
@@ -727,7 +728,8 @@
 </li>
 </ul>
 </li>
-<li>Jupyter
+<li>
+<p>Jupyter</p>
 <ul>
 <li>
 <a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions" target="_blank" rel="noopener">Jupyter Extensions</a>
@@ -737,14 +739,17 @@
 </li>
 </ul>
 </li>
-<li>Windows
+<li>
+<p>Windows</p>
 <ul>
 <li>Terminal: Termius (education account w. github student)</li>
 <li>Windows Subsystem for Linux:
 <ul>
+<li>install:
+<ul>
 <li>run: <code>Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform</code> in powershell w. admin</li>
 <li>run: <code>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</code> in powershell w. admin</li>
-<li>get Ubuntu from microsoft store &amp; RUN the app</li>
+<li>get Ubuntu from microsoft store &amp; RUN the app (<code>Ubuntu</code> refers to the recommended version, should be 20.04)</li>
 <li>run: <code>wsl --set-default-version 2</code></li>
 <li>Now, the ubuntu&rsquo;s <code>bash.exe</code> is available:
 <ul>
@@ -753,9 +758,24 @@
 </li>
 </ul>
 </li>
+<li>anyconnect not working in WSL:
+<ul>
+<li>use anyconnect within the windows store. 
+<a href="https://github.com/microsoft/WSL/issues/4277" target="_blank" rel="noopener">reference</a></li>
 </ul>
 </li>
-<li>Sublime:
+</ul>
+</li>
+<li>Windows Terminal:
+<ul>
+<li>Configuration is saved at 
+<a href="windows_terminal_settings.json">here</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Sublime:</p>
 <ul>
 <li>install package control w <code>install package control</code>;</li>
 <li>theme: default (or ayu)</li>
@@ -768,7 +788,8 @@
 <li>sidebarenhancement</li>
 </ul>
 </li>
-<li>Tmux
+<li>
+<p>Tmux</p>
 <ul>
 <li>
 <a href="https://github.com/tmux-plugins/tmux-resurrect" target="_blank" rel="noopener">oh my tmux</a></li>
@@ -792,7 +813,8 @@
 </li>
 </ul>
 </li>
-<li>ssh
+<li>
+<p>ssh</p>
 <ul>
 <li>generate
 <ul>
@@ -813,7 +835,8 @@ ssh-add idrsa
 </li>
 </ul>
 </li>
-<li>linux
+<li>
+<p>linux</p>
 <ul>
 <li>check linux version: <code>uname -m &amp;&amp; cat /etc/*release</code></li>
 <li>check cuda version:<code>cat /usr/local/cuda/version.txt</code></li>
@@ -825,7 +848,8 @@ echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.bashrc
 </code></pre>
 <pre><code></code></pre>
 </li>
-<li>NAS
+<li>
+<p>NAS</p>
 <ul>
 <li><code>rrshare</code> with updated API
 <ul>
@@ -835,13 +859,32 @@ echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.bashrc
 </li>
 </ul>
 </li>
-<li>Nvidia Geforce GPU
+<li>
+<p>Nvidia Geforce GPU</p>
 <ul>
 <li>restrict base clock and temperature to protect cards:
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/164907210">https://zhuanlan.zhihu.com/p/164907210</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li>
+<p>PyTorch</p>
+<ul>
+<li>solution for <code>Error: mkl-service + Intel(R) MKL: MKL_THREADING_LAYER=INTEL...</code>:
+<ul>
+<li>python: <code>os.environ['MKL_THREADING_LAYER'] = 'GNU'</code></li>
+<li>command: <code>MKL_THREADING_LAYER=GNU python my_script.py</code></li>
+<li>env: <code>export MKL_THREADING_LAYER=GNU</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>RStudio</p>
+<ul>
+<li><code>docker run -d --name rstudio -v $HOME:/home/rstudio -e PASSWORD=$PASSWORD -p 8787:8787 rocker/tidyverse</code></li>
 </ul>
 </li>
 </ul>
