@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minimal User Guidance | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/minimal-user-guidance/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/minimal-user-guidance/index.xml" rel="self" type="application/rss+xml" />
+    <description>Minimal User Guidance</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Minimal User Guidance</title>
+      <link>https://liyuanlucasliu.github.io/tags/minimal-user-guidance/</link>
+    </image>
+    
+    <item>
+      <title>Joint Aspect-Sentiment Analysis with Minimal User Guidance</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhuang-sentiment-2020/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhuang-sentiment-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

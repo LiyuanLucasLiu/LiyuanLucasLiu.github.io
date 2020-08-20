@@ -709,8 +709,7 @@
 
     <div class="article-style">
       <ul>
-<li>
-<p>Docker</p>
+<li>Docker
 <ul>
 <li>Nvidia Image: 
 <a href="https://docs.nvidia.com/deeplearning/tensorrt/container-release-notes/running.html" target="_blank" rel="noopener">TensorRT</a>, 
@@ -726,10 +725,29 @@
 <li>prune: <code>docker system prune</code></li>
 </ul>
 </li>
+<li>Permission Error:
+<ul>
+<li>fixing by <code>sudo chmod 666 /var/run/docker.sock</code></li>
 </ul>
 </li>
-<li>
-<p>Jupyter</p>
+<li>No enough space:
+<ul>
+<li>moving to a different disk by</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-bash">sudo cp -r /var/lib/docker $TARGET_PATH
+echo '{
+&quot;graph&quot;: &quot;$TARGET_PATH&quot;
+}' | sudo tee -a /etc/docker/daemon.json
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+sudo chmod 666 /var/run/docker.sock
+</code></pre>
+<ul>
+<li>Jupyter
 <ul>
 <li>
 <a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions" target="_blank" rel="noopener">Jupyter Extensions</a>
@@ -739,8 +757,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Windows</p>
+<li>Windows
 <ul>
 <li>Terminal: Termius (education account w. github student)</li>
 <li>Windows Subsystem for Linux:
@@ -774,8 +791,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Sublime:</p>
+<li>Sublime:
 <ul>
 <li>install package control w <code>install package control</code>;</li>
 <li>theme: default (or ayu)</li>
@@ -788,8 +804,7 @@
 <li>sidebarenhancement</li>
 </ul>
 </li>
-<li>
-<p>Tmux</p>
+<li>Tmux
 <ul>
 <li>
 <a href="https://github.com/tmux-plugins/tmux-resurrect" target="_blank" rel="noopener">oh my tmux</a></li>
@@ -813,8 +828,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>ssh</p>
+<li>ssh
 <ul>
 <li>generate
 <ul>
@@ -827,29 +841,28 @@
 <li>recommended:<code>ssh-copy-id -i idrsa $remote_username@$server_ip_address -p $port</code></li>
 </ul>
 </li>
-<li>add ssh key:
-<pre><code>eval `ssh-agent`
-ssh-add idrsa
-</code></pre>
-<pre><code></code></pre>
-</li>
+<li>add ssh key:</li>
 </ul>
 </li>
-<li>
-<p>linux</p>
+</ul>
+<pre><code class="language-bash">eval `ssh-agent`
+ssh-add idrsa
+</code></pre>
+<ul>
+<li>linux
 <ul>
 <li>check linux version: <code>uname -m &amp;&amp; cat /etc/*release</code></li>
 <li>check cuda version:<code>cat /usr/local/cuda/version.txt</code></li>
 <li>output gpu utils to one line:<code>nvidia-smi --query-gpu=memory.used --format=csv,noheader | xargs | sed -e 's/ /,/g'</code></li>
 <li>autojump install</li>
 </ul>
-<pre><code>sudo apt-get install autojump
+</li>
+</ul>
+<pre><code class="language-bash">sudo apt-get install autojump
 echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.bashrc
 </code></pre>
-<pre><code></code></pre>
-</li>
-<li>
-<p>NAS</p>
+<ul>
+<li>NAS
 <ul>
 <li><code>rrshare</code> with updated API
 <ul>
@@ -859,8 +872,7 @@ echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.bashrc
 </li>
 </ul>
 </li>
-<li>
-<p>Nvidia Geforce GPU</p>
+<li>Nvidia Geforce GPU
 <ul>
 <li>restrict base clock and temperature to protect cards:
 <ul>
@@ -869,8 +881,7 @@ echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.bashrc
 </li>
 </ul>
 </li>
-<li>
-<p>PyTorch</p>
+<li>PyTorch
 <ul>
 <li>solution for <code>Error: mkl-service + Intel(R) MKL: MKL_THREADING_LAYER=INTEL...</code>:
 <ul>
@@ -881,10 +892,14 @@ echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.bashrc
 </li>
 </ul>
 </li>
-<li>
-<p>RStudio</p>
+<li>RStudio
 <ul>
 <li><code>docker run -d --name rstudio -v $HOME:/home/rstudio -e PASSWORD=$PASSWORD -p 8787:8787 rocker/tidyverse</code></li>
+</ul>
+</li>
+<li>Markdown editor
+<ul>
+<li>Joplin + Typora</li>
 </ul>
 </li>
 </ul>

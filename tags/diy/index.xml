@@ -18,8 +18,7 @@
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/blog/2020-07-setup/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Docker&lt;/p&gt;
+&lt;li&gt;Docker
 &lt;ul&gt;
 &lt;li&gt;Nvidia Image: 
 &lt;a href=&#34;https://docs.nvidia.com/deeplearning/tensorrt/container-release-notes/running.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TensorRT&lt;/a&gt;, 
@@ -35,10 +34,29 @@
 &lt;li&gt;prune: &lt;code&gt;docker system prune&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Permission Error:
+&lt;ul&gt;
+&lt;li&gt;fixing by &lt;code&gt;sudo chmod 666 /var/run/docker.sock&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Jupyter&lt;/p&gt;
+&lt;li&gt;No enough space:
+&lt;ul&gt;
+&lt;li&gt;moving to a different disk by&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo cp -r /var/lib/docker $TARGET_PATH
+echo &#39;{
+&amp;quot;graph&amp;quot;: &amp;quot;$TARGET_PATH&amp;quot;
+}&#39; | sudo tee -a /etc/docker/daemon.json
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+sudo chmod 666 /var/run/docker.sock
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Jupyter
 &lt;ul&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://github.com/ipython-contrib/jupyter_contrib_nbextensions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupyter Extensions&lt;/a&gt;
@@ -48,8 +66,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Windows&lt;/p&gt;
+&lt;li&gt;Windows
 &lt;ul&gt;
 &lt;li&gt;Terminal: Termius (education account w. github student)&lt;/li&gt;
 &lt;li&gt;Windows Subsystem for Linux:
@@ -83,8 +100,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Sublime:&lt;/p&gt;
+&lt;li&gt;Sublime:
 &lt;ul&gt;
 &lt;li&gt;install package control w &lt;code&gt;install package control&lt;/code&gt;;&lt;/li&gt;
 &lt;li&gt;theme: default (or ayu)&lt;/li&gt;
@@ -97,8 +113,7 @@
 &lt;li&gt;sidebarenhancement&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tmux&lt;/p&gt;
+&lt;li&gt;Tmux
 &lt;ul&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://github.com/tmux-plugins/tmux-resurrect&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;oh my tmux&lt;/a&gt;&lt;/li&gt;
@@ -122,8 +137,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ssh&lt;/p&gt;
+&lt;li&gt;ssh
 &lt;ul&gt;
 &lt;li&gt;generate
 &lt;ul&gt;
@@ -136,29 +150,28 @@
 &lt;li&gt;recommended:&lt;code&gt;ssh-copy-id -i idrsa $remote_username@$server_ip_address -p $port&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;add ssh key:
-&lt;pre&gt;&lt;code&gt;eval `ssh-agent`
-ssh-add idrsa
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+&lt;li&gt;add ssh key:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;linux&lt;/p&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;eval `ssh-agent`
+ssh-add idrsa
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;linux
 &lt;ul&gt;
 &lt;li&gt;check linux version: &lt;code&gt;uname -m &amp;amp;&amp;amp; cat /etc/*release&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;check cuda version:&lt;code&gt;cat /usr/local/cuda/version.txt&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;output gpu utils to one line:&lt;code&gt;nvidia-smi --query-gpu=memory.used --format=csv,noheader | xargs | sed -e &#39;s/ /,/g&#39;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;autojump install&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get install autojump
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install autojump
 echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.bashrc
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;NAS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NAS
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;rrshare&lt;/code&gt; with updated API
 &lt;ul&gt;
@@ -168,8 +181,7 @@ echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.bashrc
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Nvidia Geforce GPU&lt;/p&gt;
+&lt;li&gt;Nvidia Geforce GPU
 &lt;ul&gt;
 &lt;li&gt;restrict base clock and temperature to protect cards:
 &lt;ul&gt;
@@ -178,8 +190,7 @@ echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.bashrc
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;PyTorch&lt;/p&gt;
+&lt;li&gt;PyTorch
 &lt;ul&gt;
 &lt;li&gt;solution for &lt;code&gt;Error: mkl-service + Intel(R) MKL: MKL_THREADING_LAYER=INTEL...&lt;/code&gt;:
 &lt;ul&gt;
@@ -190,10 +201,14 @@ echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.bashrc
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;RStudio&lt;/p&gt;
+&lt;li&gt;RStudio
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;docker run -d --name rstudio -v $HOME:/home/rstudio -e PASSWORD=$PASSWORD -p 8787:8787 rocker/tidyverse&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Markdown editor
+&lt;ul&gt;
+&lt;li&gt;Joplin + Typora&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

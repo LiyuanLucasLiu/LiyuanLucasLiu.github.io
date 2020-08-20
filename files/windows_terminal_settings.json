@@ -30,38 +30,48 @@
         "list":
         [
             {
+                "useAcrylic" : true,
+                "acrylicOpacity" : 0.8,
+                // Make changes here to the powershell.exe profile.
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                "useAcrylic" : true,
+                "acrylicOpacity" : 0.8,
+                // Make changes here to the cmd.exe profile.
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "useAcrylic" : true,
+                "acrylicOpacity" : 0.8,
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
                 "useAcrylic" : true,
                 "acrylicOpacity" : 0.8,
-            },
-            {
-                // Connects to a remote machine using SSH
-                "guid": "{be7af350-bc23-4e94-80a7-5a68ad43af92}",
-                "name":  "ds-serv1",
-                "tabTitle": "SSH DS-SERV1",
-                "commandline": "ssh user0@serv0",
-                "acrylicOpacity": 0.8,
-                "useAcrylic": true,
-                "hidden": false
-            },
-            {
-                // Connects to a remote machine using SSH
-                "guid": "{5b865183-c92a-40f3-8860-8201836e28f2}",
-                "name":  "dmserv5",
-                "tabTitle": "SSH DM5",
-                "commandline": "ssh user1@serv1",
-                "acrylicOpacity": 0.8,
-                "useAcrylic": true,
-                "hidden": false
-            },
-            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                // Connects to a remote machine using SSH
+                "guid": "{be7af350-bc23-4e94-80a7-5a68ad43af92}",
+                "name":  "SSH DS-SERV1",
+                "tabTitle": "SSH DS-SERV1",
+                "commandline": "ssh liyuan@ds-serv1.ucsd.edu",
+                "acrylicOpacity": 0.8,
+                "useAcrylic": true,
+                "hidden": false
             }
         ]
     },
