@@ -789,6 +789,14 @@ sudo chmod 666 /var/run/docker.sock
 <a href="windows_terminal_settings.json">here</a></li>
 </ul>
 </li>
+<li>Multi-Monitor:
+<ul>
+<li>Enable multi task bar (search <code>taskbar</code>)</li>
+<li>Make the larger one major monitor and neven group icons (search <code>display</code>)</li>
+<li>Only show the icon of searching (right click at taskbar-&gt;search)</li>
+<li>Hide <code>cortana</code> and <code>task</code> buttons by right click at taskbar.</li>
+</ul>
+</li>
 </ul>
 </li>
 <li>Sublime:
@@ -828,7 +836,7 @@ sudo chmod 666 /var/run/docker.sock
 </li>
 </ul>
 </li>
-<li>ssh
+<li>bash commands
 <ul>
 <li>generate
 <ul>
@@ -859,7 +867,13 @@ ssh-add idrsa
 </li>
 </ul>
 <pre><code class="language-bash">sudo apt-get install autojump
-echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.bashrc
+echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.zshrc
+</code></pre>
+<pre><code>- zsh
+    - oh-my-zsh `sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;`
+    - zsh-syntax-highlighting `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+    - zsh-autosuggestions `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+    - plug-in permissions `compaudit | xargs chmod g-w,o-w`
 </code></pre>
 <ul>
 <li>NAS

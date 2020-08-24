@@ -5,12 +5,20 @@
     <link>https://liyuanlucasliu.github.io/</link>
       <atom:link href="https://liyuanlucasliu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Liyuan Liu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Liyuan Liu</title>
       <link>https://liyuanlucasliu.github.io/</link>
     </image>
+    
+    <item>
+      <title>Very Deep Transformers for Neural Machine Translation</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-deep-2020/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-deep-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Towards Adaptive Residual Network Training: A Neural-ODE Perspective</title>
@@ -122,6 +130,14 @@ sudo chmod 666 /var/run/docker.sock
 &lt;a href=&#34;windows_terminal_settings.json&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Multi-Monitor:
+&lt;ul&gt;
+&lt;li&gt;Enable multi task bar (search &lt;code&gt;taskbar&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Make the larger one major monitor and neven group icons (search &lt;code&gt;display&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Only show the icon of searching (right click at taskbar-&amp;gt;search)&lt;/li&gt;
+&lt;li&gt;Hide &lt;code&gt;cortana&lt;/code&gt; and &lt;code&gt;task&lt;/code&gt; buttons by right click at taskbar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Sublime:
@@ -161,7 +177,7 @@ sudo chmod 666 /var/run/docker.sock
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;ssh
+&lt;li&gt;bash commands
 &lt;ul&gt;
 &lt;li&gt;generate
 &lt;ul&gt;
@@ -192,7 +208,13 @@ ssh-add idrsa
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install autojump
-echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.bashrc
+echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;- zsh
+    - oh-my-zsh `sh -c &amp;quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot;`
+    - zsh-syntax-highlighting `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+    - zsh-autosuggestions `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+    - plug-in permissions `compaudit | xargs chmod g-w,o-w`
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;NAS
