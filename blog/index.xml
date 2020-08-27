@@ -5,12 +5,61 @@
     <link>https://liyuanlucasliu.github.io/blog/</link>
       <atom:link href="https://liyuanlucasliu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog -- coding is the real-world magic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Blog -- coding is the real-world magic</title>
       <link>https://liyuanlucasliu.github.io/blog/</link>
     </image>
+    
+    <item>
+      <title>My Work-From-Home Secrets</title>
+      <link>https://liyuanlucasliu.github.io/blog/2020-08-wfh/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/2020-08-wfh/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Desk:
+&lt;ul&gt;
+&lt;li&gt;Big NO to rising desks (or adjustable height desks). Although I love these desks, the dealbreaker is that, sooner or later, its motors are gonna break, which is super troublesome.&lt;/li&gt;
+&lt;li&gt;Easy and reliable alternatives are the 
+&lt;a href=&#34;https://www.amazon.com/s?k=furniture&amp;#43;risers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;furniture rise&lt;/a&gt; + 
+&lt;a href=&#34;https://www.ikea.com/us/en/p/linnmon-adils-table-white-s29932181/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cheapest IKEA table&lt;/a&gt; combination.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Monitor stand:
+&lt;ul&gt;
+&lt;li&gt;Monitor stands are awesome! Save lots of desk space and greatly simplifies your workspace.&lt;/li&gt;
+&lt;li&gt;Note that if you are using 32&amp;rsquo;&amp;rsquo; monitor/heavy monitor, be sure to buy monitor stand with a heavy load (only the ones with gas spring arms can hold my monitor).&lt;/li&gt;
+&lt;li&gt;I also add 
+&lt;a href=&#34;https://www.amazon.com/TotalMount-Monitor-Mount-for-Headphones/dp/B083JLDPDP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;headphone mounts&lt;/a&gt; to my monitor. They look great!&lt;/li&gt;
+&lt;li&gt;I also mount my laptop on my monitor stand &amp;ndash; 
+&lt;a href=&#34;https://www.amazon.com/s?k=vesa&amp;#43;laptop&amp;#43;mount&amp;#43;tray&amp;amp;ref=nb_sb_noss&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VESA laptop mount tray works great&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chairs:
+&lt;ul&gt;
+&lt;li&gt;I purchased a 
+&lt;a href=&#34;https://www.ebay.com/itm/Steelcase-Leap-Chair-V2-Open-Box-Fully-Loaded-Black-Fabric/121882349228&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;refurbished leap v2 chair&lt;/a&gt; from madison seating. Its website has some horrible ratings and reviews, but its ebay shop seems legit. Still, for refurbished chairs, they are used and YMMV.&lt;/li&gt;
+&lt;li&gt;My girlfriend is using the from 
+&lt;a href=&#34;https://www.autonomous.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Autonomous&lt;/a&gt;, it is also great. This compant sells some fully fully functioning seats in a relative low price (although I need to use IE to open its website on Windows).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mouse and Keyboards:
+&lt;ul&gt;
+&lt;li&gt;Logitech MX Master is the only mouse I would recommend (v1, v2, v3 are all great).&lt;/li&gt;
+&lt;li&gt;Any of the following keyboards are great:
+&lt;ul&gt;
+&lt;li&gt;Microsoft Ergonomic Keyboard (cheapest, wired and slow actuation)&lt;/li&gt;
+&lt;li&gt;Microsoft Sculpt Ergonomic Keyboard (wireless, not bluetooth enabled, using batteries and fast actuation)&lt;/li&gt;
+&lt;li&gt;Logitech MX Keys (not ergonomic, wireless, bluetooth enabled, rechargeable and fast actuation)&lt;/li&gt;
+&lt;li&gt;Logitech K860 (wireless, bluetooth enabled, using batteries and fast actuation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Configuration Cheatsheet</title>
@@ -41,12 +90,7 @@
 &lt;/li&gt;
 &lt;li&gt;No enough space:
 &lt;ul&gt;
-&lt;li&gt;moving to a different disk by&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;moving to a different disk by
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo cp -r /var/lib/docker $TARGET_PATH
 echo &#39;{
 &amp;quot;graph&amp;quot;: &amp;quot;$TARGET_PATH&amp;quot;
@@ -55,7 +99,11 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 sudo chmod 666 /var/run/docker.sock
 &lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Jupyter
 &lt;ul&gt;
 &lt;li&gt;
@@ -125,7 +173,7 @@ sudo chmod 666 /var/run/docker.sock
 &lt;ul&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://github.com/tmux-plugins/tmux-resurrect&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;oh my tmux&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;1.8 config:
+&lt;li&gt;tmux 1.8 config:
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;https://github.com/mandre/dotfiles/blob/master/.tmux-1.8.conf&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -158,33 +206,34 @@ sudo chmod 666 /var/run/docker.sock
 &lt;li&gt;recommended:&lt;code&gt;ssh-copy-id -i idrsa $remote_username@$server_ip_address -p $port&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;add ssh key:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;add ssh key:
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;eval `ssh-agent`
 ssh-add idrsa
 &lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;linux
 &lt;ul&gt;
 &lt;li&gt;check linux version: &lt;code&gt;uname -m &amp;amp;&amp;amp; cat /etc/*release&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;check cuda version:&lt;code&gt;cat /usr/local/cuda/version.txt&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;output gpu utils to one line:&lt;code&gt;nvidia-smi --query-gpu=memory.used --format=csv,noheader | xargs | sed -e &#39;s/ /,/g&#39;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;autojump install&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;autojump install
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install autojump
 echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.zshrc
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;- zsh
-    - oh-my-zsh `sh -c &amp;quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot;`
-    - zsh-syntax-highlighting `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-    - zsh-autosuggestions `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-    - plug-in permissions `compaudit | xargs chmod g-w,o-w`
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;zsh
 &lt;ul&gt;
+&lt;li&gt;oh-my-zsh &lt;code&gt;sh -c &amp;quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;zsh-syntax-highlighting &lt;code&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;zsh-autosuggestions &lt;code&gt;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;plug-in permissions &lt;code&gt;compaudit | xargs chmod g-w,o-w&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;on WSL, the git plut-in may be too slow, turn off by &lt;code&gt;git config --global oh-my-zsh.hide-status 1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;NAS
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;rrshare&lt;/code&gt; with updated API
@@ -223,6 +272,41 @@ echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.zshrc
 &lt;li&gt;Markdown editor
 &lt;ul&gt;
 &lt;li&gt;Joplin + Typora&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Printer
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/yaurora/cups-google-airprint&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;docker repo source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;stop cups service for DSM
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;synoservice --hard-disable cupsd
+synoservice --hard-disable cups-lpd
+synoservicectl --stop cupsd
+synoservicectl --stop cups-lpd
+synoservicecfg --hard-disable cupsd
+synoservicecfg --hard-disable cups-lpd
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;command to start:
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker run -d --name=&amp;quot;airprint&amp;quot; --net=&amp;quot;host&amp;quot; --privileged=&amp;quot;true&amp;quot; \
+    -e &amp;quot;CUPS_USER_ADMIN&amp;quot;=$USER -e &amp;quot;CUPS_USER_PASSWORD&amp;quot;=$PASS \
+    -v $PATH_TO_AIRPRINT_CONFIG:/config \
+    -v /dev/bus/usb:/dev/bus/usb \
+    yaurora/cups-google-airprint
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;Login and install Canon DFRII driver:
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker exec -it airprint /bin/bash
+wget http://gdlp01.c-wss.com/gds/6/0100009236/06/linux-UFRII-drv-v510-usen-09.tar.gz
+tar -xzf linux-UFRII-drv-v510-usen-09.tar.gz
+cd linux-UFRII-drv-v510-usen
+./install.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;Network address for windows:
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;http://192.168.1.2:631/printers/Canon_D530_D560
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

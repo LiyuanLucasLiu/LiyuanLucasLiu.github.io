@@ -732,12 +732,7 @@
 </li>
 <li>No enough space:
 <ul>
-<li>moving to a different disk by</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<li>moving to a different disk by
 <pre><code class="language-bash">sudo cp -r /var/lib/docker $TARGET_PATH
 echo '{
 &quot;graph&quot;: &quot;$TARGET_PATH&quot;
@@ -746,7 +741,11 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 sudo chmod 666 /var/run/docker.sock
 </code></pre>
-<ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 <li>Jupyter
 <ul>
 <li>
@@ -816,7 +815,7 @@ sudo chmod 666 /var/run/docker.sock
 <ul>
 <li>
 <a href="https://github.com/tmux-plugins/tmux-resurrect" target="_blank" rel="noopener">oh my tmux</a></li>
-<li>1.8 config:
+<li>tmux 1.8 config:
 <ul>
 <li><code>https://github.com/mandre/dotfiles/blob/master/.tmux-1.8.conf</code></li>
 </ul>
@@ -849,33 +848,34 @@ sudo chmod 666 /var/run/docker.sock
 <li>recommended:<code>ssh-copy-id -i idrsa $remote_username@$server_ip_address -p $port</code></li>
 </ul>
 </li>
-<li>add ssh key:</li>
-</ul>
-</li>
-</ul>
+<li>add ssh key:
 <pre><code class="language-bash">eval `ssh-agent`
 ssh-add idrsa
 </code></pre>
-<ul>
+</li>
+</ul>
+</li>
 <li>linux
 <ul>
 <li>check linux version: <code>uname -m &amp;&amp; cat /etc/*release</code></li>
 <li>check cuda version:<code>cat /usr/local/cuda/version.txt</code></li>
 <li>output gpu utils to one line:<code>nvidia-smi --query-gpu=memory.used --format=csv,noheader | xargs | sed -e 's/ /,/g'</code></li>
-<li>autojump install</li>
-</ul>
-</li>
-</ul>
+<li>autojump install
 <pre><code class="language-bash">sudo apt-get install autojump
 echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.zshrc
 </code></pre>
-<pre><code>- zsh
-    - oh-my-zsh `sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;`
-    - zsh-syntax-highlighting `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-    - zsh-autosuggestions `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-    - plug-in permissions `compaudit | xargs chmod g-w,o-w`
-</code></pre>
+</li>
+<li>zsh
 <ul>
+<li>oh-my-zsh <code>sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</code></li>
+<li>zsh-syntax-highlighting <code>git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting</code></li>
+<li>zsh-autosuggestions <code>git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions</code></li>
+<li>plug-in permissions <code>compaudit | xargs chmod g-w,o-w</code></li>
+<li>on WSL, the git plut-in may be too slow, turn off by <code>git config --global oh-my-zsh.hide-status 1</code></li>
+</ul>
+</li>
+</ul>
+</li>
 <li>NAS
 <ul>
 <li><code>rrshare</code> with updated API
@@ -914,6 +914,41 @@ echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.zshrc
 <li>Markdown editor
 <ul>
 <li>Joplin + Typora</li>
+</ul>
+</li>
+<li>Printer
+<ul>
+<li>
+<a href="https://github.com/yaurora/cups-google-airprint" target="_blank" rel="noopener">docker repo source</a></li>
+<li>stop cups service for DSM
+<pre><code class="language-bash">synoservice --hard-disable cupsd
+synoservice --hard-disable cups-lpd
+synoservicectl --stop cupsd
+synoservicectl --stop cups-lpd
+synoservicecfg --hard-disable cupsd
+synoservicecfg --hard-disable cups-lpd
+</code></pre>
+</li>
+<li>command to start:
+<pre><code class="language-bash">docker run -d --name=&quot;airprint&quot; --net=&quot;host&quot; --privileged=&quot;true&quot; \
+    -e &quot;CUPS_USER_ADMIN&quot;=$USER -e &quot;CUPS_USER_PASSWORD&quot;=$PASS \
+    -v $PATH_TO_AIRPRINT_CONFIG:/config \
+    -v /dev/bus/usb:/dev/bus/usb \
+    yaurora/cups-google-airprint
+</code></pre>
+</li>
+<li>Login and install Canon DFRII driver:
+<pre><code class="language-bash">docker exec -it airprint /bin/bash
+wget http://gdlp01.c-wss.com/gds/6/0100009236/06/linux-UFRII-drv-v510-usen-09.tar.gz
+tar -xzf linux-UFRII-drv-v510-usen-09.tar.gz
+cd linux-UFRII-drv-v510-usen
+./install.sh
+</code></pre>
+</li>
+<li>Network address for windows:
+<pre><code class="language-bash">http://192.168.1.2:631/printers/Canon_D530_D560
+</code></pre>
+</li>
 </ul>
 </li>
 </ul>
