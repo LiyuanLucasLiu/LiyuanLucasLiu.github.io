@@ -154,6 +154,11 @@ sudo chmod 666 /var/run/docker.sock
 &lt;li&gt;Hide &lt;code&gt;cortana&lt;/code&gt; and &lt;code&gt;task&lt;/code&gt; buttons by right click at taskbar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Win-PE creator:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wepe.com.cn/&#34;&gt;http://www.wepe.com.cn/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Sublime:
@@ -304,7 +309,7 @@ cd linux-UFRII-drv-v510-usen
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;Network address for windows:
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;http://192.168.1.2:631/printers/Canon_D530_D560
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;http://$IP/printers/Canon_D530_D560
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
