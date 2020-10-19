@@ -5,7 +5,7 @@
     <link>https://liyuanlucasliu.github.io/publication_types/3/</link>
       <atom:link href="https://liyuanlucasliu.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>3</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Very Deep Transformers for Neural Machine Translation</title>
-      <link>https://liyuanlucasliu.github.io/publication/liu-deep-2020/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/liu-deep-2020/</guid>
+      <title>Overfitting or Underfitting? Understand Robustness Drop in Adversarial Training</title>
+      <link>https://liyuanlucasliu.github.io/publication/li-apart-2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/li-apart-2020/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Understanding the Difficulty of Training Transformers</title>
-      <link>https://liyuanlucasliu.github.io/publication/liu-admin-2020/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/liu-admin-2020/</guid>
+      <title>Very Deep Transformers for Neural Machine Translation</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-deep-2020/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-deep-2020/</guid>
       <description></description>
     </item>
     

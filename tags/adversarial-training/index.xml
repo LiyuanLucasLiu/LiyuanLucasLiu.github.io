@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stability | Liyuan Liu</title>
-    <link>https://liyuanlucasliu.github.io/tags/stability/</link>
-      <atom:link href="https://liyuanlucasliu.github.io/tags/stability/index.xml" rel="self" type="application/rss+xml" />
-    <description>Stability</description>
+    <title>Adversarial Training | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/adversarial-training/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/adversarial-training/index.xml" rel="self" type="application/rss+xml" />
+    <description>Adversarial Training</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
-      <title>Stability</title>
-      <link>https://liyuanlucasliu.github.io/tags/stability/</link>
+      <title>Adversarial Training</title>
+      <link>https://liyuanlucasliu.github.io/tags/adversarial-training/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://liyuanlucasliu.github.io/publication/li-apart-2020/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/publication/li-apart-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Understanding the Difficulty of Training Transformers</title>
-      <link>https://liyuanlucasliu.github.io/publication/liu-admin-2020/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/liu-admin-2020/</guid>
       <description></description>
     </item>
     
