@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/tags/adaptive/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/tags/adversarial-training/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -23,7 +28,32 @@
   </url>
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/tags/bert/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/chen-chen/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/authors/chengyu-dong/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/hongkun-yu/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/jiawei-han/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/jing-li/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,6 +64,21 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/network/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/network-grow/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication/gu-progressive-2020/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,6 +113,11 @@
   </url>
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/authors/xiaotao-gu/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/authors/zichao-li/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -98,11 +148,6 @@
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/tags/network/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/tags/network-depth/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -129,16 +174,6 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/publication_types/1/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/tags/adaptive/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/tags/network-grow/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -179,11 +214,6 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/he-jiang/</loc>
-    <lastmod>2020-07-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/authors/jiawei-han/</loc>
     <lastmod>2020-07-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -604,11 +634,6 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/teng-ren/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/authors/xiaotao-gu/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url>
   

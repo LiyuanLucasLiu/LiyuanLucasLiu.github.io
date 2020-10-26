@@ -5,12 +5,20 @@
     <link>https://liyuanlucasliu.github.io/tags/adaptive/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/adaptive/index.xml" rel="self" type="application/rss+xml" />
     <description>Adaptive</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Adaptive</title>
       <link>https://liyuanlucasliu.github.io/tags/adaptive/</link>
     </image>
+    
+    <item>
+      <title>On the Transformer Growth for Progressive BERT Training</title>
+      <link>https://liyuanlucasliu.github.io/publication/gu-progressive-2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/gu-progressive-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Towards Adaptive Residual Network Training: A Neural-ODE Perspective</title>
