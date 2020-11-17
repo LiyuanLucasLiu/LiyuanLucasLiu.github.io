@@ -5,12 +5,192 @@
     <link>https://liyuanlucasliu.github.io/</link>
       <atom:link href="https://liyuanlucasliu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Liyuan Liu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Liyuan Liu</title>
       <link>https://liyuanlucasliu.github.io/</link>
     </image>
+    
+    <item>
+      <title>One Sentence Summary for EMNLP 2020</title>
+      <link>https://liyuanlucasliu.github.io/blog/2020-11-emnlp/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/2020-11-emnlp/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;What Do Position Embeddings Learn? An Empirical Study of Pre-Trained Language Model Positional Encoding
+&lt;ul&gt;
+&lt;li&gt;Position encoding learns local position information in the encoder and absolute position in the decoder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A Matter of Framing: The Impact of Linguistic Formalism on Probing Results
+&lt;ul&gt;
+&lt;li&gt;Choice of linguistic formalism is important for role-semantic probing results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Contrastive Distillation on Intermediate Representations for Language Model Compression
+&lt;ul&gt;
+&lt;li&gt;Language model compression via contrastive loss, while memory bank is used to store negative samples (not updated in training).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Efficient Meta Lifelong-Learning with Limited Memory
+&lt;ul&gt;
+&lt;li&gt;Efficient experience rehearsal is achieved by learn to select examples.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Self-Supervised Meta-Learning for Few-Shot Natural Language Classification Tasks
+&lt;ul&gt;
+&lt;li&gt;Introduced optimization-based meta-learning to language modeling pretraining-finetuning paradigm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Repulsive Attention: Rethinking Multi-head Attention as Bayesian Inference
+&lt;ul&gt;
+&lt;li&gt;Multi-head attention can be viewed as multiple sample from the same distribution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Token-level Adaptive Training for Neural Machine Translation
+&lt;ul&gt;
+&lt;li&gt;Using frequency-based heuristic to re-weight the loss value for different tokens.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Shallow-to-Deep Training for Neural Machine Translation
+&lt;ul&gt;
+&lt;li&gt;Both copying-strategy and lr-reset matters for progressive Transformer-based NMT training (copying is more important and &lt;code&gt;123-&amp;gt;123123&lt;/code&gt; &amp;gt; &lt;code&gt;123-&amp;gt;112233&lt;/code&gt; &amp;gt; &lt;code&gt;123-&amp;gt;123333&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Incorporating a Local Translation Mechanism into Non-autoregressive Translation
+&lt;ul&gt;
+&lt;li&gt;In NAT, treating an autoregressive sequence instead of a token as the basic unit (for &lt;code&gt;1234&lt;/code&gt; generate &lt;code&gt;12&lt;/code&gt; and &lt;code&gt;34&lt;/code&gt; simultaneously while &lt;code&gt;2&lt;/code&gt; is generated after &lt;code&gt;1&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Long-Short Term Masking Transformer: A Simple but Effective Baseline for Document-level Neural Machine Translation
+&lt;ul&gt;
+&lt;li&gt;To alleviate error accumulation, use attention mask to change classical attention (global, all tokens are accessible) to local attention.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Masking as an Efficient Alternative to Finetuning for Pretrained Language Models
+&lt;ul&gt;
+&lt;li&gt;Instead of finetuning LMs, learn a weight mask instead (e.g., &lt;code&gt;[0.1, 0.3] -&amp;gt; [0.0, 0.3]&lt;/code&gt;), which is argued to be more memory-efficient (1-bit instead of 32/16-bit additional copy).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If Beam Search is the Answer, What was the Question?
+&lt;ul&gt;
+&lt;li&gt;Beam search has an inductive bias which can be linked to the promotion of uniform information
+density &amp;mdash; variance of surprisals is linear to BLEU (people dont want surprise in reading).&lt;/li&gt;
+&lt;li&gt;By adding regularization on information density, exact search performs similar to beam search.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;When BERT Plays the Lottery, All Tickets Are Winning
+&lt;ul&gt;
+&lt;li&gt;The pruned “good” subnetworks works well, while the “bad” ones do not.&lt;/li&gt;
+&lt;li&gt;For structured pruning, even “bad” subnetworks can be finetuned separately to reach fairly strong performance.&lt;/li&gt;
+&lt;li&gt;Different runs get different “good” subnetworks, indicating the existance of factors otherthan non-trivial linguistic features.&lt;/li&gt;
+&lt;li&gt;The success of BERT might be more related to optimization surfaces rather than specific bits
+of linguistic knowledge.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dynamic Context Selection for Document-level Neural Machine Translation via Reinforcement Learning
+&lt;ul&gt;
+&lt;li&gt;Using RL to select context for NMT at the document-level.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Losing Heads in the Lottery: Pruning Transformer Attention in Neural Machine Translation
+&lt;ul&gt;
+&lt;li&gt;Pruning in training is much better than pruning after converge (0.1 BLEU drop v.s. 1.1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reusing a Pretrained Language Model on Languages with Limited Corpora for Unsupervised NMT
+&lt;ul&gt;
+&lt;li&gt;Pre-training on high-resource -&amp;gt; fine-tune on low-resource by expanding dictionary -&amp;gt; XLM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Towards Reasonably-Sized Character-Level Transformer NMT by Finetuning Subword Systems
+&lt;ul&gt;
+&lt;li&gt;Char-level NMT &amp;lt; first train Subword-level NMT, then convert to Character-level &amp;lt; Subword-level NMT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Self-Induced Curriculum Learning in Self-Supervised Neural Machine Translation
+&lt;ul&gt;
+&lt;li&gt;Jointly learn to select training data from comparable (rather than parallel) data, and to NMT.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Can Automatic Post-Editing Improve NMT?
+&lt;ul&gt;
+&lt;li&gt;With more training data, automatic post-editing can improve NMT a lot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Learning from Context or Names? An Empirical Study on Neural Relation Extraction
+&lt;ul&gt;
+&lt;li&gt;Both context and names are important for performance, while existing RE datasets may leak cues via names.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Some Languages Seem Easier to Parse Because Their Treebanks Leak
+&lt;ul&gt;
+&lt;li&gt;Some languages seem easier to parse, since the trees in the test set are mostly isomorphic with some tree in the training set.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Word Frequency Does Not Predict Grammatical Knowledge in Language
+Models
+&lt;ul&gt;
+&lt;li&gt;Comparing &lt;code&gt;The cat walks&lt;/code&gt; and &lt;code&gt;The cat walk&lt;/code&gt;, the author found in four dimensions, frequency is not related to how well the knowledge is learned.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Do sequence-to-sequence VAEs learn global features of sentences?
+&lt;ul&gt;
+&lt;li&gt;VAEs are prone to memorizing the first words and the sentence length, producing local
+features of limited usefulness, while chaning architecture can help to alleviate such memorization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Adversarial Semantic Collisions
+&lt;ul&gt;
+&lt;li&gt;Semantic collisions refer to texts that are semantically unrelated but judged as similar by NLP models, which can be effectively derived with gradient based methods.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sparse Text Generation
+&lt;ul&gt;
+&lt;li&gt;Entmax transformation is leveraged to train and sample from a natively sparse language model, while \alpha-Entmax unifies softmax, argmax, and sparsemax.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Learning VariationalWord Masks to Improve the Interpretability of Neural Text Classifiers
+&lt;ul&gt;
+&lt;li&gt;word masks are automatically learned to emphasize task-specific words, which improves interpretability and performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Identifying Elements Essential for BERT’s Multilinguality
+&lt;ul&gt;
+&lt;li&gt;shared position embeddings, shared special tokens, replacing masked tokens with random tokens and a limited amount of parameters are necessary elements for multilinguality.&lt;/li&gt;
+&lt;li&gt;Word order is relevant: BERT is not multilingual with one language having an inverted word order.&lt;/li&gt;
+&lt;li&gt;The comparability of training corpora contributes to multilinguality.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A Streaming Approach For Efficient Batched Beam Search
+&lt;ul&gt;
+&lt;li&gt;Periodically “refills” the batch before proceeding with a selected subset of candidates, special handlings are made to handle the self-attention padding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;On Losses for Modern Language Models
+&lt;ul&gt;
+&lt;li&gt;Clarify NSP’s effect on BERT pre-training and design more auxiliary tasks, which allows the final method outperforms BERTBase with fewer than a quarter of the training tokens.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Entities as Experts: Sparse Memory Access with Entity Supervision
+&lt;ul&gt;
+&lt;li&gt;Leveraging entity representations to better memorize sparse knowledge.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Semantic Label Smoothing for Sequence to Sequence Problems
+&lt;ul&gt;
+&lt;li&gt;Retrieve semantically similar sentences to do label smoothing, at the cost of training computations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;We Can Detect Your Bias: Predicting the Political Ideology of News Articles
+&lt;ul&gt;
+&lt;li&gt;Directly using BERT would result in a heavy dependency on source, which motivates the leverage of adversarial training to neutralize such leaked clues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>On the Transformer Growth for Progressive BERT Training</title>

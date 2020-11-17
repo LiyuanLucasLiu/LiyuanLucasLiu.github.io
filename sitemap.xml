@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/blog/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/emnlp/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/blog/2020-11-emnlp/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/paper-summary/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/authors/liyuan-liu/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -63,11 +93,6 @@
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/tags/network/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -108,11 +133,6 @@
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/tags/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/authors/xiaotao-gu/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -120,11 +140,6 @@
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/zichao-li/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/blog/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
