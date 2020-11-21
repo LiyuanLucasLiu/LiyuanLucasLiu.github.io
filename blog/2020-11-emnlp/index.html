@@ -708,7 +708,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <ul>
+      <ol>
 <li>What Do Position Embeddings Learn? An Empirical Study of Pre-Trained Language Model Positional Encoding
 <ul>
 <li>Position encoding learns local position information in the encoder and absolute position in the decoder.</li>
@@ -879,7 +879,79 @@ features of limited usefulness, while chaning architecture can help to alleviate
 <li>Directly using BERT would result in a heavy dependency on source, which motivates the leverage of adversarial training to neutralize such leaked clues.</li>
 </ul>
 </li>
+<li>Imitation Attacks and Defenses for Black-box Machine Translation Systems
+<ul>
+<li>After imitating black-box machine translation system, attack the imitated system with universal trigger attack / suffix dropper attack / targeted flip attack.</li>
+<li>Discussions are included to defense model stealing with gradient poisoning.</li>
 </ul>
+</li>
+<li>Ensemble Distillation for Structured Prediction: Calibrated, Accurate, Fast—Choose Three
+<ul>
+<li>Ensemble helps to calibration and improve model performance, while distillation helps to make it faster.</li>
+</ul>
+</li>
+<li>Inference Strategies for Machine Translation with Conditional Masking
+<ul>
+<li>Using masked language model as decoder, and iterative replacing masks with model outputs.</li>
+<li>Four strategies are used: fixed #iterations; fixed #tokens/iteration; probs &gt; T; comined-probs &gt; T (best)</li>
+</ul>
+</li>
+<li>An Empirical Study of Generation Order for Machine Translation
+<ul>
+<li>Using Transformer to do generation in an insertive manner, i.e., <code>(a, c)-&gt;b</code>, many efforts are made on exploring different generation orders (balanced binary tree works the best, while others are not far behind)</li>
+</ul>
+</li>
+<li>Reproducible and Efficient Benchmarks for Hyperparameter Optimization of Neural Machine Translation Systems
+<ul>
+<li>Benchmark for hyper-parameter optimization on NMT.</li>
+</ul>
+</li>
+<li>Neural Mask Generator: Learning to Generate Adaptive Word Maskings for Language Model Adaptation
+<ul>
+<li>Learn to generate masking, for adapting language model to a new domain in a faster manner.</li>
+</ul>
+</li>
+<li>Recall and Learn: Fine-tuning Deep Pretrained Language Models with Less Forgetting
+<ul>
+<li>For small dataset, adding additional regularization on the parameter wight shift (difference to the original pre-trained weights)</li>
+</ul>
+</li>
+<li>Simple and Effective Few-Shot Named Entity Recognition with Structured Nearest Neighbor Learning
+<ul>
+<li>After pre-training NER models on a source domain, trying to adapt the model to a new domain by conducting structured nearest neighbor search (similarities are calculated based on representations constructed by the pre-trained model).</li>
+</ul>
+</li>
+<li>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks
+<ul>
+<li>After linearization labeled sentence (converting into <code>B-PER Jose E-PER</code>), language modeling is trained and used to generate new data for the training.</li>
+</ul>
+</li>
+<li>Learning Music Helps You Read: Using Transfer to Study Linguistic Structure in Language Models
+<ul>
+<li>Pre-training LSTMs on music helps to train it on language later, but not random generated texts.</li>
+</ul>
+</li>
+<li>Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-trained Language Models
+<ul>
+<li>LM does not perform well on numerical commonsense knowledge, even with distant supervision.</li>
+</ul>
+</li>
+<li>Train No Evil: Selective Masking for Task-Guided Pre-Training
+<ul>
+<li>Finding important tokens with heuristic strategies and conducting task-guided pre-training (heuristic leverages task-specific information).</li>
+</ul>
+</li>
+<li>Fact or Fiction: Verifying Scientific Claims
+<ul>
+<li>Propose a new task called scientific claim verification and construct corresponding datasets.</li>
+</ul>
+</li>
+<li>Language Model Prior for Low-Resource Neural Machine Translation
+<ul>
+<li>Using language model outputs to regularize NMT in a knowledge distillation manner.</li>
+</ul>
+</li>
+</ol>
 
     </div>
 

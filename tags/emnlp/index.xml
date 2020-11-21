@@ -17,7 +17,7 @@
       <link>https://liyuanlucasliu.github.io/blog/2020-11-emnlp/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/blog/2020-11-emnlp/</guid>
-      <description>&lt;ul&gt;
+      <description>&lt;ol&gt;
 &lt;li&gt;What Do Position Embeddings Learn? An Empirical Study of Pre-Trained Language Model Positional Encoding
 &lt;ul&gt;
 &lt;li&gt;Position encoding learns local position information in the encoder and absolute position in the decoder.&lt;/li&gt;
@@ -188,7 +188,79 @@ features of limited usefulness, while chaning architecture can help to alleviate
 &lt;li&gt;Directly using BERT would result in a heavy dependency on source, which motivates the leverage of adversarial training to neutralize such leaked clues.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Imitation Attacks and Defenses for Black-box Machine Translation Systems
+&lt;ul&gt;
+&lt;li&gt;After imitating black-box machine translation system, attack the imitated system with universal trigger attack / suffix dropper attack / targeted flip attack.&lt;/li&gt;
+&lt;li&gt;Discussions are included to defense model stealing with gradient poisoning.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ensemble Distillation for Structured Prediction: Calibrated, Accurate, Fast—Choose Three
+&lt;ul&gt;
+&lt;li&gt;Ensemble helps to calibration and improve model performance, while distillation helps to make it faster.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Inference Strategies for Machine Translation with Conditional Masking
+&lt;ul&gt;
+&lt;li&gt;Using masked language model as decoder, and iterative replacing masks with model outputs.&lt;/li&gt;
+&lt;li&gt;Four strategies are used: fixed #iterations; fixed #tokens/iteration; probs &amp;gt; T; comined-probs &amp;gt; T (best)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;An Empirical Study of Generation Order for Machine Translation
+&lt;ul&gt;
+&lt;li&gt;Using Transformer to do generation in an insertive manner, i.e., &lt;code&gt;(a, c)-&amp;gt;b&lt;/code&gt;, many efforts are made on exploring different generation orders (balanced binary tree works the best, while others are not far behind)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reproducible and Efficient Benchmarks for Hyperparameter Optimization of Neural Machine Translation Systems
+&lt;ul&gt;
+&lt;li&gt;Benchmark for hyper-parameter optimization on NMT.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Neural Mask Generator: Learning to Generate Adaptive Word Maskings for Language Model Adaptation
+&lt;ul&gt;
+&lt;li&gt;Learn to generate masking, for adapting language model to a new domain in a faster manner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Recall and Learn: Fine-tuning Deep Pretrained Language Models with Less Forgetting
+&lt;ul&gt;
+&lt;li&gt;For small dataset, adding additional regularization on the parameter wight shift (difference to the original pre-trained weights)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Simple and Effective Few-Shot Named Entity Recognition with Structured Nearest Neighbor Learning
+&lt;ul&gt;
+&lt;li&gt;After pre-training NER models on a source domain, trying to adapt the model to a new domain by conducting structured nearest neighbor search (similarities are calculated based on representations constructed by the pre-trained model).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks
+&lt;ul&gt;
+&lt;li&gt;After linearization labeled sentence (converting into &lt;code&gt;B-PER Jose E-PER&lt;/code&gt;), language modeling is trained and used to generate new data for the training.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Learning Music Helps You Read: Using Transfer to Study Linguistic Structure in Language Models
+&lt;ul&gt;
+&lt;li&gt;Pre-training LSTMs on music helps to train it on language later, but not random generated texts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-trained Language Models
+&lt;ul&gt;
+&lt;li&gt;LM does not perform well on numerical commonsense knowledge, even with distant supervision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Train No Evil: Selective Masking for Task-Guided Pre-Training
+&lt;ul&gt;
+&lt;li&gt;Finding important tokens with heuristic strategies and conducting task-guided pre-training (heuristic leverages task-specific information).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fact or Fiction: Verifying Scientific Claims
+&lt;ul&gt;
+&lt;li&gt;Propose a new task called scientific claim verification and construct corresponding datasets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Language Model Prior for Low-Resource Neural Machine Translation
+&lt;ul&gt;
+&lt;li&gt;Using language model outputs to regularize NMT in a knowledge distillation manner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
