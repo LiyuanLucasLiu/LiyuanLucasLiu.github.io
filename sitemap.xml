@@ -3,17 +3,102 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/authors/liyuan-liu/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication_types/1/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/adversarial-training/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/distant-supervision/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication/chen-adv-re-2021/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/haochen-shi/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/jian-shao/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/less-annotation/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication_types/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/publication/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/relation-extraction/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/siliang-tang/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/tags/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/tao-chen/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/yueting-zhuang/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/authors/zhigang-chen/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/blog/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://liyuanlucasliu.github.io/tags/emnlp/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,32 +113,12 @@
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/tags/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/authors/liyuan-liu/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/publication_types/3/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://liyuanlucasliu.github.io/tags/adaptive/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/tags/adversarial-training/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/authors/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,6 +158,11 @@
   </url>
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/tags/less-tuning/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/tags/network/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -109,16 +179,6 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/publication/li-apart-2020/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/publication_types/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/publication/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -185,11 +245,6 @@
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/xiaodong-liu/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/publication_types/1/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -438,11 +493,6 @@
   </url>
   
   <url>
-    <loc>https://liyuanlucasliu.github.io/tags/distant-supervision/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuanlucasliu.github.io/authors/jiacheng-liu/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
@@ -469,11 +519,6 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/qinyuan-ye/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/tags/relation-extraction/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -594,16 +639,6 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/authors/shiliang-pu/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/authors/siliang-tang/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liyuanlucasliu.github.io/authors/yueting-zhuang/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
