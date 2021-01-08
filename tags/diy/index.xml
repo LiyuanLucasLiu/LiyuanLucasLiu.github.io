@@ -5,12 +5,84 @@
     <link>https://liyuanlucasliu.github.io/tags/diy/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/diy/index.xml" rel="self" type="application/rss+xml" />
     <description>DIY</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>DIY</title>
       <link>https://liyuanlucasliu.github.io/tags/diy/</link>
     </image>
+    
+    <item>
+      <title>How to Covert T-Mobile One Plus 7T to the International Version</title>
+      <link>https://liyuanlucasliu.github.io/blog/2021-01-oneplus/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/2021-01-oneplus/</guid>
+      <description>&lt;p&gt;I shattered my phone screen several days ago, and decided to move my stuff from ios to Android, due to the huge price difference. Eventually, I managed to get an unlocked T-Mobile OnePlus 7T from B&amp;amp;H at about 300$. The phone is unlocked, but the system is the T-Mobile version, meaning all updates would be released from T-Mobile after a delay and the start screen will have a huge T-Mobile logo.&lt;/p&gt;
+&lt;p&gt;To get rid all of these, I flashed my system into the international version system, following 
+&lt;a href=&#34;https://forum.xda-developers.com/t/t-mobile-7t-conversion-to-international-without-unlocked-bootloader-sim-unlock.4153943/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this guide&lt;/a&gt;. Yet, as this is my first time dealing with Android, I met some problems, and the whole process toke me about three whole hours, motivating me to add some notes to the original guide.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;First step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Download the patched MSM download tool: &lt;a href=&#34;https://drive.google.com/file/d/12y3lO0wIgb2_LSDeVw9x_2C_HjbgZlb_/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/12y3lO0wIgb2_LSDeVw9x_2C_HjbgZlb_/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;An easy first step.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Second step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Run the tool, connect your phone in EDL mode (see below how to do it if you don&amp;rsquo;t know), ensure the &amp;ldquo;sha256 check&amp;rdquo; is NOT checked, click the Start button and wait until it&amp;rsquo;s completed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The second is not that easy. To get through, you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install the Qualcomm HS-USB QDLoader 9008 Driver (device manager -&amp;gt; find the phone in other devices -&amp;gt; update driver -&amp;gt; install the optional windows update)&lt;/li&gt;
+&lt;li&gt;To enter the EDL mode:
+&lt;blockquote&gt;
+&lt;p&gt;power off the phone and disconnect the USB if it&amp;rsquo;s connected. Then press both volume UP and DOWN at same time, then while holding those buttons down, insert the USB which should already be connected to your computer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;If you decide to quit, you can download a 
+&lt;a href=&#34;https://forum.xda-developers.com/t/op7t-oos-10-0-15-hd65aa-ba-unbrick-tool-to-restore-your-device-to-oxygenos.3994835/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;different MSM tool&lt;/a&gt; to revert the system back to the T-Mobile system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Third Step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The phone will show a red warning saying &amp;ldquo;device is corrupt&amp;rdquo;, just ignore that and wait some time. It will fallback in fastboot because it&amp;rsquo;s not able to boot. Update your fastboot executable, otherwise you&amp;rsquo;ll encounter errors and modem issues. Download it here: &lt;a href=&#34;https://dl.google.com/android/repository/platform-tools-latest-windows.zip&#34;&gt;https://dl.google.com/android/repository/platform-tools-latest-windows.zip&lt;/a&gt;. Now run the following fastboot command &lt;code&gt;fastboot flashing unlock_critical&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I changed the order of this part a little bit. It is necessary to download the 
+&lt;a href=&#34;https://dl.google.com/android/repository/usb_driver_r13-windows.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Android Usb Driver&lt;/a&gt;, and install the driver via the step 39+ in 
+&lt;a href=&#34;https://www.teamandroid.com/2012/07/30/how-to-set-up-adb-fastboot-with-android-sdk/3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this guide&lt;/a&gt;. In the end, a selection UI will be available (volume up/down, and power for operation).&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Fourth Step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bootloader is now unlocked.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Finally!&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Fifth Step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Extract the contents of the 
+&lt;a href=&#34;https://forum.xda-developers.com/t/rom-stock-fastboot-op7t-stock-fastboot-roms-for-oneplus-7t.3979213/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Global Fastboot Rom zip&lt;/a&gt; folder directly into your ADB folder.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you did this correctly your ADB folder will be filled with a bunch of new .img files. Like boot.img​
+Open CMD (with admin rights) and navigate to your ADB folder. run &lt;code&gt;flash-all.bat&lt;/code&gt; (on PC).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I recommend to install an Not-Up-To-Date version here, and then update later. In my case, I need to repeat this process twice. After the first time, T-Mobile logo will still show up, and the wifi is not available. I entered the system, go to setting, first go to &lt;code&gt;About 7T&lt;/code&gt; and tap &amp;hellip; three times to enable developer mode, then go to &amp;hellip; and turn on advanced boot choice and reboot into fastboot again. Re-flash the system with &lt;code&gt;flash-all.bat&lt;/code&gt; again. now it would have the choice to select language after roboot, but DO NOTHING HERE!&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Final Step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You&amp;rsquo;ve now fully converted to the Global Firmware. Confirm this by going to settings &amp;gt; about phone and look at Build Number. 
+Update the system to the latest firmwarm. 
+Lock the bootloader again by first entering the fastboot, then check to make sure phone is being picked up by bootloader via &lt;code&gt;fastboot devices&lt;/code&gt; (on PC), and finally relock bootloader via &lt;code&gt;fastboot oem lock&lt;/code&gt; (on PC).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Welcome to the international version OnePlus 7T!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My Work-From-Home Secrets</title>
