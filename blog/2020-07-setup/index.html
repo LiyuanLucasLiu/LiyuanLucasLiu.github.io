@@ -865,6 +865,7 @@ ssh-add idrsa
 <li>check linux version: <code>uname -m &amp;&amp; cat /etc/*release</code></li>
 <li>check cuda version:<code>cat /usr/local/cuda/version.txt</code></li>
 <li>output gpu utils to one line:<code>nvidia-smi --query-gpu=memory.used --format=csv,noheader | xargs | sed -e 's/ /,/g'</code></li>
+<li>reboot to bios: <code>sudo systemctl reboot --firmware-setup</code></li>
 <li>autojump install
 <pre><code class="language-bash">sudo apt-get install autojump
 echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.zshrc
@@ -877,6 +878,15 @@ echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.zshrc
 <li>zsh-autosuggestions <code>git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions</code></li>
 <li>plug-in permissions <code>compaudit | xargs chmod g-w,o-w</code></li>
 <li>on WSL, the git plut-in may be too slow, turn off by <code>git config --global oh-my-zsh.hide-status 1</code></li>
+</ul>
+</li>
+<li>driver
+<ul>
+<li>To install the Display Driver, the Nouveau drivers must first be disabled.
+<ul>
+<li><a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#runfile-nouveau">https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#runfile-nouveau</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -907,6 +917,11 @@ echo &quot;. /usr/share/autojump/autojump.sh&quot; | tee -a ~/.zshrc
 <li>python: <code>os.environ['MKL_THREADING_LAYER'] = 'GNU'</code></li>
 <li>command: <code>MKL_THREADING_LAYER=GNU python my_script.py</code></li>
 <li>env: <code>export MKL_THREADING_LAYER=GNU</code></li>
+</ul>
+</li>
+<li>distributed data parallel halts without error message:
+<ul>
+<li>env: <code>export NCCL_P2P_DISABLE=1</code></li>
 </ul>
 </li>
 </ul>
@@ -1082,7 +1097,7 @@ cd linux-UFRII-drv-v510-usen
     
     <li>
       <a href="/files/cv.pdf" >
-        <i class="ai ai-cv"></i>
+        <i class="ai ai-c"></i>
       </a>
     </li>
   

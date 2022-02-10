@@ -603,6 +603,7 @@ ssh-add idrsa
 &lt;li&gt;check linux version: &lt;code&gt;uname -m &amp;amp;&amp;amp; cat /etc/*release&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;check cuda version:&lt;code&gt;cat /usr/local/cuda/version.txt&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;output gpu utils to one line:&lt;code&gt;nvidia-smi --query-gpu=memory.used --format=csv,noheader | xargs | sed -e &#39;s/ /,/g&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;reboot to bios: &lt;code&gt;sudo systemctl reboot --firmware-setup&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;autojump install
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install autojump
 echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.zshrc
@@ -615,6 +616,15 @@ echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.zshrc
 &lt;li&gt;zsh-autosuggestions &lt;code&gt;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;plug-in permissions &lt;code&gt;compaudit | xargs chmod g-w,o-w&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;on WSL, the git plut-in may be too slow, turn off by &lt;code&gt;git config --global oh-my-zsh.hide-status 1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;driver
+&lt;ul&gt;
+&lt;li&gt;To install the Display Driver, the Nouveau drivers must first be disabled.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#runfile-nouveau&#34;&gt;https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#runfile-nouveau&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -645,6 +655,11 @@ echo &amp;quot;. /usr/share/autojump/autojump.sh&amp;quot; | tee -a ~/.zshrc
 &lt;li&gt;python: &lt;code&gt;os.environ[&#39;MKL_THREADING_LAYER&#39;] = &#39;GNU&#39;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;command: &lt;code&gt;MKL_THREADING_LAYER=GNU python my_script.py&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;env: &lt;code&gt;export MKL_THREADING_LAYER=GNU&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;distributed data parallel halts without error message:
+&lt;ul&gt;
+&lt;li&gt;env: &lt;code&gt;export NCCL_P2P_DISABLE=1&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
