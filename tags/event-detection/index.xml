@@ -5,12 +5,20 @@
     <link>https://liyuanlucasliu.github.io/tags/event-detection/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/event-detection/index.xml" rel="self" type="application/rss+xml" />
     <description>Event Detection</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Event Detection</title>
       <link>https://liyuanlucasliu.github.io/tags/event-detection/</link>
     </image>
+    
+    <item>
+      <title>Piled: An identify-and-localize framework for few-shot event detection</title>
+      <link>https://liyuanlucasliu.github.io/publication/li-pile-2022/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/li-pile-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TrioVecEvent: Embedding-based Online Local Event Detection in Geo-tagged Tweet Streams</title>

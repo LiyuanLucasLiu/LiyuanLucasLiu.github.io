@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Discrete Variable | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/discrete-variable/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/discrete-variable/index.xml" rel="self" type="application/rss+xml" />
+    <description>Discrete Variable</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Discrete Variable</title>
+      <link>https://liyuanlucasliu.github.io/tags/discrete-variable/</link>
+    </image>
+    
+    <item>
+      <title>Sparse Backpropagation for MoE Training</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-sparsemixer-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-sparsemixer-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging Discrete and Backpropagation: Straight-Through and Beyond</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-reinmax-2023/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-reinmax-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

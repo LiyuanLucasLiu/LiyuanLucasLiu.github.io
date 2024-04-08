@@ -5,12 +5,52 @@
     <link>https://liyuanlucasliu.github.io/publication_types/3/</link>
       <atom:link href="https://liyuanlucasliu.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>3</title>
       <link>https://liyuanlucasliu.github.io/publication_types/3/</link>
     </image>
+    
+    <item>
+      <title>Learning a Decision Tree Algorithm with Transformers</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhuang-autotree-2024/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhuang-autotree-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse Backpropagation for MoE Training</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-sparsemixer-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-sparsemixer-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Piled: An identify-and-localize framework for few-shot event detection</title>
+      <link>https://liyuanlucasliu.github.io/publication/li-pile-2022/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/li-pile-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-head or Single-head? An Empirical Comparison for Transformer Training</title>
+      <link>https://liyuanlucasliu.github.io/publication/gu-ucphrase-2021/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/gu-ucphrase-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-head or Single-head? An Empirical Comparison for Transformer Training</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-singlehead-2021/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-singlehead-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On the Transformer Growth for Progressive BERT Training</title>

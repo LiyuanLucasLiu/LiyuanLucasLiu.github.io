@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-Head | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/multi-head/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/multi-head/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multi-Head</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Multi-Head</title>
+      <link>https://liyuanlucasliu.github.io/tags/multi-head/</link>
+    </image>
+    
+    <item>
+      <title>Multi-head or Single-head? An Empirical Comparison for Transformer Training</title>
+      <link>https://liyuanlucasliu.github.io/publication/gu-ucphrase-2021/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/gu-ucphrase-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-head or Single-head? An Empirical Comparison for Transformer Training</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-singlehead-2021/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-singlehead-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

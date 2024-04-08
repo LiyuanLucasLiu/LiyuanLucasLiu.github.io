@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oral | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/oral/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/oral/index.xml" rel="self" type="application/rss+xml" />
+    <description>Oral</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Oral</title>
+      <link>https://liyuanlucasliu.github.io/tags/oral/</link>
+    </image>
+    
+    <item>
+      <title>Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs</title>
+      <link>https://liyuanlucasliu.github.io/publication/ge-fastgen-2023/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/ge-fastgen-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging Discrete and Backpropagation: Straight-Through and Beyond</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-reinmax-2023/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-reinmax-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Label Noise in Adversarial Training: A Novel Perspective to Study Robust Overfitting</title>
+      <link>https://liyuanlucasliu.github.io/publication/dong-double-2022/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/dong-double-2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

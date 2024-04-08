@@ -5,7 +5,7 @@
     <link>https://liyuanlucasliu.github.io/tags/selected/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/selected/index.xml" rel="self" type="application/rss+xml" />
     <description>Selected</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Selected</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>Overfitting or Underfitting? Understand Robustness Drop in Adversarial Training</title>
-      <link>https://liyuanlucasliu.github.io/publication/li-apart-2020/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/li-apart-2020/</guid>
+      <title>Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs</title>
+      <link>https://liyuanlucasliu.github.io/publication/ge-fastgen-2023/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/ge-fastgen-2023/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Towards Adaptive Residual Network Training: A Neural-ODE Perspective</title>
-      <link>https://liyuanlucasliu.github.io/publication/dong-lipgrow-2020/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/dong-lipgrow-2020/</guid>
+      <title>Bridging Discrete and Backpropagation: Straight-Through and Beyond</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-reinmax-2023/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-reinmax-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Label Noise in Adversarial Training: A Novel Perspective to Study Robust Overfitting</title>
+      <link>https://liyuanlucasliu.github.io/publication/dong-double-2022/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/dong-double-2022/</guid>
       <description></description>
     </item>
     
@@ -45,22 +53,6 @@
     </item>
     
     <item>
-      <title>CrossWeigh: Training Named Entity Tagger from Imperfect Annotations</title>
-      <link>https://liyuanlucasliu.github.io/publication/wang-crossweigh-2019/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/wang-crossweigh-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Looking Beyond Label Noise: Shifted Label Distribution Matters in Distantly Supervised Relation Extraction</title>
-      <link>https://liyuanlucasliu.github.io/publication/ye-looking-2019/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/ye-looking-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Efficient Contextualized Representation: Language Model Pruning for Sequence Labeling</title>
       <link>https://liyuanlucasliu.github.io/publication/liu-efficient-2018/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
@@ -69,26 +61,10 @@
     </item>
     
     <item>
-      <title>Learning Named Entity Tagger using Domain-Specific Dictionary</title>
-      <link>https://liyuanlucasliu.github.io/publication/shang-learning-2018/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/shang-learning-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Empower Sequence Labeling with Task-Aware Neural Language Model</title>
       <link>https://liyuanlucasliu.github.io/publication/liu-empower-2018/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://liyuanlucasliu.github.io/publication/liu-empower-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach</title>
-      <link>https://liyuanlucasliu.github.io/publication/liu-heterogeneous-2017/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/publication/liu-heterogeneous-2017/</guid>
       <description></description>
     </item>
     

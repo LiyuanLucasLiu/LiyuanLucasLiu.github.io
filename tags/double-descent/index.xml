@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Double Descent | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/double-descent/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/double-descent/index.xml" rel="self" type="application/rss+xml" />
+    <description>Double Descent</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 06 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Double Descent</title>
+      <link>https://liyuanlucasliu.github.io/tags/double-descent/</link>
+    </image>
+    
+    <item>
+      <title>Label Noise in Adversarial Training: A Novel Perspective to Study Robust Overfitting</title>
+      <link>https://liyuanlucasliu.github.io/publication/dong-double-2022/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/dong-double-2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

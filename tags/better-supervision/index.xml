@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Better Supervision | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/better-supervision/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/better-supervision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Better Supervision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 14 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Better Supervision</title>
+      <link>https://liyuanlucasliu.github.io/tags/better-supervision/</link>
+    </image>
+    
+    <item>
+      <title>Toward Student-oriented Teacher Network Training for Knowledge Distillation</title>
+      <link>https://liyuanlucasliu.github.io/publication/dong-soteacher-2022/</link>
+      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/dong-soteacher-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understand and modularize generator optimization in ELECTRA-style pretraining</title>
+      <link>https://liyuanlucasliu.github.io/publication/dong-electra-2023/</link>
+      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/dong-electra-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
