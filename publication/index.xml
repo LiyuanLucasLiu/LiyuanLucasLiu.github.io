@@ -5,12 +5,84 @@
     <link>https://liyuanlucasliu.github.io/publication/</link>
       <atom:link href="https://liyuanlucasliu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Publications</title>
       <link>https://liyuanlucasliu.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation</title>
+      <link>https://liyuanlucasliu.github.io/publication/ren-hybrid-2025/</link>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/ren-hybrid-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training Language Models to Generate Quality Code with Program Analysis Feedback</title>
+      <link>https://liyuanlucasliu.github.io/publication/feng-real-2025/</link>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/feng-real-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning for Reasoning in Large Language Models with One Training Example</title>
+      <link>https://liyuanlucasliu.github.io/publication/wang-onesample-2025/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/wang-onesample-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vector-ICL: In-context Learning with Continuous Vector Representations</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhuang-moi-2025/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhuang-moi-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LoRC: Low-Rank Compression for LLMs KV Cache with a Progressive Compression Strategy</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhang-loca-2024/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhang-loca-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vector-ICL: In-context Learning with Continuous Vector Representations</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhuang-vectoricl-2025/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhuang-vectoricl-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRIN: GRadient-INformed MoE</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-grin-2024/</link>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-grin-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model Tells Itself Where to Attend: Faithfulness Meets Automatic Attention Steering</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhang-autopasta-2024/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhang-autopasta-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone</title>
+      <link>https://liyuanlucasliu.github.io/publication/abdin-phi-2024/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/abdin-phi-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning a Decision Tree Algorithm with Transformers</title>

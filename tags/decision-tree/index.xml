@@ -5,12 +5,20 @@
     <link>https://liyuanlucasliu.github.io/tags/decision-tree/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/decision-tree/index.xml" rel="self" type="application/rss+xml" />
     <description>Decision Tree</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Decision Tree</title>
       <link>https://liyuanlucasliu.github.io/tags/decision-tree/</link>
     </image>
+    
+    <item>
+      <title>Vector-ICL: In-context Learning with Continuous Vector Representations</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhuang-vectoricl-2025/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhuang-vectoricl-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning a Decision Tree Algorithm with Transformers</title>

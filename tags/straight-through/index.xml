@@ -5,12 +5,20 @@
     <link>https://liyuanlucasliu.github.io/tags/straight-through/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/straight-through/index.xml" rel="self" type="application/rss+xml" />
     <description>Straight-Through</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 18 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Straight-Through</title>
       <link>https://liyuanlucasliu.github.io/tags/straight-through/</link>
     </image>
+    
+    <item>
+      <title>GRIN: GRadient-INformed MoE</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-grin-2024/</link>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-grin-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sparse Backpropagation for MoE Training</title>

@@ -5,12 +5,20 @@
     <link>https://liyuanlucasliu.github.io/tags/minimal-user-guidance/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/minimal-user-guidance/index.xml" rel="self" type="application/rss+xml" />
     <description>Minimal User Guidance</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Fri, 03 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Minimal User Guidance</title>
       <link>https://liyuanlucasliu.github.io/tags/minimal-user-guidance/</link>
     </image>
+    
+    <item>
+      <title>Model Tells Itself Where to Attend: Faithfulness Meets Automatic Attention Steering</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhang-autopasta-2024/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhang-autopasta-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tell Your Model Where to Attend: Post-hoc Attention Steering for LLMs</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLM | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/llm/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <description>LLM</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>LLM</title>
+      <link>https://liyuanlucasliu.github.io/tags/llm/</link>
+    </image>
+    
+    <item>
+      <title>Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone</title>
+      <link>https://liyuanlucasliu.github.io/publication/abdin-phi-2024/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/abdin-phi-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

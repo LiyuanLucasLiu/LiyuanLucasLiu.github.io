@@ -5,12 +5,28 @@
     <link>https://liyuanlucasliu.github.io/tags/less-tuning/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/less-tuning/index.xml" rel="self" type="application/rss+xml" />
     <description>Less Tuning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 11 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Less Tuning</title>
       <link>https://liyuanlucasliu.github.io/tags/less-tuning/</link>
     </image>
+    
+    <item>
+      <title>LoRC: Low-Rank Compression for LLMs KV Cache with a Progressive Compression Strategy</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhang-loca-2024/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhang-loca-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRIN: GRadient-INformed MoE</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-grin-2024/</link>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-grin-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fast-ELECTRA for Efficient Pre-training</title>

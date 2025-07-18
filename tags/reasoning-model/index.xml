@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reasoning Model | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/reasoning-model/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/reasoning-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reasoning Model</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Reasoning Model</title>
+      <link>https://liyuanlucasliu.github.io/tags/reasoning-model/</link>
+    </image>
+    
+    <item>
+      <title>Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation</title>
+      <link>https://liyuanlucasliu.github.io/publication/ren-hybrid-2025/</link>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/ren-hybrid-2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

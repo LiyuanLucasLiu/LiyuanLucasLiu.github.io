@@ -5,12 +5,36 @@
     <link>https://liyuanlucasliu.github.io/tags/meta-learning/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/meta-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Meta Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sun, 25 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Meta Learning</title>
       <link>https://liyuanlucasliu.github.io/tags/meta-learning/</link>
     </image>
+    
+    <item>
+      <title>Reinforcement Learning for Reasoning in Large Language Models with One Training Example</title>
+      <link>https://liyuanlucasliu.github.io/publication/wang-onesample-2025/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/wang-onesample-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vector-ICL: In-context Learning with Continuous Vector Representations</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhuang-moi-2025/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhuang-moi-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vector-ICL: In-context Learning with Continuous Vector Representations</title>
+      <link>https://liyuanlucasliu.github.io/publication/zhuang-vectoricl-2025/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/zhuang-vectoricl-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning a Decision Tree Algorithm with Transformers</title>
