@@ -5,12 +5,36 @@
     <link>https://liyuanlucasliu.github.io/tags/reinforcement-learning/</link>
       <atom:link href="https://liyuanlucasliu.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Reinforcement Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Reinforcement Learning</title>
       <link>https://liyuanlucasliu.github.io/tags/reinforcement-learning/</link>
     </image>
+    
+    <item>
+      <title>FlashRL: 8Bit Rollouts, Full Power RL</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-quant-2025/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-quant-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving MoE Post-Training with Precise Router Gradients</title>
+      <link>https://liyuanlucasliu.github.io/publication/feng-densemixer-2025/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/feng-densemixer-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Your Efficient RL Framework Secretly Brings You Off-Policy RL Training</title>
+      <link>https://liyuanlucasliu.github.io/publication/feng-off-2025/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/feng-off-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Training Language Models to Generate Quality Code with Program Analysis Feedback</title>
