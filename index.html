@@ -430,16 +430,22 @@
         
 
         
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Activities</span><span class="caret"></span>
-          </a>
-          <div class="dropdown-menu">
-            
-              <a class="dropdown-item" href="/#services" data-target="#services"><span>Services</span></a>
-            
-              <a class="dropdown-item" href="/experience/" data-target="experience/"><span>Experience</span></a>
-            
-          </div>
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/experience/"><span>Experience</span></a>
         </li>
 
         
@@ -841,36 +847,42 @@ I aim to design **adaptive algorithms** for **Resource-Economical mechine learni
       <h2>... and want to do</h2>
     </div>
     <div class="col-12 col-lg-8">
-      <p>The success of large-scale pretraining hinges on intricate engineering heuristics. While the empirical benefits of these heuristics are evident, their underlying mechanisms remain elusive.
-My research endeavors to demystify the mathematical principles underlying these pretraining heuristics, aiming to illuminate their mechanisms and potentially guide future algorithm developments.</p>
+      <p>I mainly work on understanding the mechanisms behind common heuristics in machine learning (aka tricks). Some interesting ones:</p>
+<ul>
+<li>Learner-Sampler Mismatch
+<ul>
+<li>modern framework implicitly brings RL to be 
+<a href="https://fengyao.notion.site/off-policy-rl" target="_blank" rel="noopener">off-policy &amp; TIS may help</a>, and can be 
+<a href="https://fengyao.notion.site/flash-rl" target="_blank" rel="noopener">accelerated via quantization</a>.</li>
+</ul>
+</li>
+<li>Straight-Through Estimator
+<ul>
+<li>The Straight-Through estimator works as a 
+<a href="https://arxiv.org/abs/2304.08612" target="_blank" rel="noopener">first-order approximation to the policy gradient</a> and can be 
+<a href="https://arxiv.org/abs/2304.08612" target="_blank" rel="noopener">modified to achieve second-order accuracy</a>.</li>
+</ul>
+</li>
+<li>Transformer Initialization
+<ul>
+<li>Transformer training stability can be analyzed from the 
+<a href="https://arxiv.org/abs/2004.08249" target="_blank" rel="noopener">perspective of output perturbation</a>. A 
+<a href="https://proceedings.mlr.press/v139/davis21a.html" target="_blank" rel="noopener">related, better read</a> is also available.</li>
+</ul>
+</li>
+<li>LR Warmup
+<ul>
+<li>Learning rate warmup is helpful for stabilizing 
+<a href="https://arxiv.org/abs/1908.03265" target="_blank" rel="noopener">adaptive optimizers</a>, even for non-Transformer models.</li>
+</ul>
+</li>
+</ul>
 <hr>
-<h2>Fun Facts</h2>
-<ul>
-<li>Received <strong>more than 3,000 GitHub stars</strong> in total! It is ranked 2,041 among all github users (according to 
-<a href="https://gitstar-ranking.com/LiyuanLucasLiu" target="_blank" rel="noopener">Gitstar</a>).
-<ul>
-<li>Although I doubt the Gitstar ranking is incomplete and outdated <i class="far fa-grin-squint-tears"></i>, it is still nice to have such an encouragement <i class="far fa-smile-wink"></i>.</li>
-</ul>
-</li>
-<li>
-<a href="https://github.com/LiyuanLucasLiu/Torch-Scope" target="_blank" rel="noopener">Torch-Scope</a> has been downloaded by more than <strong>
-<a href="https://pepy.tech/project/torch-scope" target="_blank" rel="noopener">32,000 times</a></strong>.
-<ul>
-<li>Although this number cannot reflect the actual user number <i class="far fa-grin-squint-tears"></i>, there must be someone other than myself using this package <i class="far fa-smile-wink"></i>.</li>
-</ul>
-</li>
-<li>Won the <strong>
-<a href="https://www.topcoder.com/challenges/30087004" target="_blank" rel="noopener">topcoder Arabic NER challenge</a></strong>.
-<ul>
-<li>Since I know nothing about Arabic, my model has surely surpassed me on that <i class="far fa-smile-wink"></i>. On second thought, why I am happy for being worse than PC&hellip; <i class="far fa-grin-squint-tears"></i></li>
-</ul>
-</li>
-<li>Love skiing (can do black run, but still a rookie); 
-<a href="https://www.wikiwand.com/en/DJI" target="_blank" rel="noopener">DJI</a> fans (proudly own Mavic Pro, Mavic Mini &amp; Spark); love to watch 
-<a href="https://www.wikiwand.com/en/Texas_hold_%27em" target="_blank" rel="noopener">Texas Hold&rsquo;em</a> (but seldom play); play 
-<a href="https://www.wikiwand.com/en/Sheng_ji" target="_blank" rel="noopener">Sheng Ji (双扣)</a> and 
-<a href="https://www.wikiwand.com/en/Werewolf_%28social_deduction_game%29" target="_blank" rel="noopener">Mafia (狼人杀)</a> with families &amp; friends.</li>
-</ul>
+<h2>Fun Facts about Me</h2>
+<p>Love skiing &amp; met my amazing wife during a ski trip; 
+<a href="https://www.wikiwand.com/en/DJI" target="_blank" rel="noopener">DJI</a> fans; play 
+<a href="https://www.wikiwand.com/en/Sheng_ji" target="_blank" rel="noopener">Sheng Ji (双扣)</a>, [Ark Nova], and 
+<a href="https://www.wikiwand.com/en/Werewolf_%28social_deduction_game%29" target="_blank" rel="noopener">Mafia (狼人杀)</a> with families &amp; friends.</p>
 
     </div>
   
@@ -1770,7 +1782,7 @@ My research endeavors to demystify the mathematical principles underlying these 
   
   
 
-  <section id="services" class="home-section wg-blank   "  >
+  <section id="0_services" class="home-section wg-blank   "  >
     <div class="container">
       
 
