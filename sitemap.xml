@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liyuanlucasliu.github.io/outdated/0_hero/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/outdated/0_experience/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/outdated/0_posts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/outdated/0_services/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/outdated/0_featured/</loc>
+  </url>
+  
+  <url>
     <loc>https://liyuanlucasliu.github.io/authors/liyuan-liu/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url>
@@ -1962,6 +1982,10 @@
   
   <url>
     <loc>https://liyuanlucasliu.github.io/honor/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liyuanlucasliu.github.io/outdated/</loc>
   </url>
   
 </urlset>
