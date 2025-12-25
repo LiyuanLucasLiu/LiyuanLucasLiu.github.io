@@ -51,10 +51,9 @@ Elementwise_affine parameters are easier to overflow and it is helpful to cast t
 &lt;ul&gt;
 &lt;li&gt;set model parameters, e.g.,
 &lt;pre&gt;&lt;code&gt;for n, p in model.named_parameters():
-    if any([ki in n for ki in fp32_keys]):
-        p.float()
+	if any([ki in n for ki in fp32_keys]):
+		p.float()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;cast precision conversion by monkey patching, e.g.,
 &lt;pre&gt;&lt;code&gt;orig_linear = torch.nn.functional.linear
@@ -68,7 +67,6 @@ def wrapped_linear(*args):
   return orig_linear(*casted_args)
 torch.nn.functional.linear = wrapped_linear
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
