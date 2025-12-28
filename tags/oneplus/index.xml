@@ -14,9 +14,9 @@
     
     <item>
       <title>How to Covert T-Mobile One Plus 7T to the International Version</title>
-      <link>https://liyuanlucasliu.github.io/blog/2021-01-oneplus/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2021-01-oneplus/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2021-01-oneplus/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2021-01-oneplus/</guid>
       <description>&lt;p&gt;I shattered my phone screen several days ago, and decided to move my stuff from ios to Android, due to the huge price difference. Eventually, I managed to get an unlocked T-Mobile OnePlus 7T from B&amp;amp;H at about 300$. The phone is unlocked, but the system is the T-Mobile version, meaning all updates would be released from T-Mobile after a delay and the start screen will have a huge T-Mobile logo.&lt;/p&gt;
 &lt;p&gt;To get rid all of these, I flashed my system into the international version system, following 
 &lt;a href=&#34;https://forum.xda-developers.com/t/t-mobile-7t-conversion-to-international-without-unlocked-bootloader-sim-unlock.4153943/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this guide&lt;/a&gt;. Yet, as this is my first time dealing with Android, I met some problems, and the whole process toke me about three whole hours, motivating me to add some notes to the original guide.&lt;/p&gt;

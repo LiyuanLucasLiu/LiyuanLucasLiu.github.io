@@ -14,9 +14,9 @@
     
     <item>
       <title>Zotero, Importing from Mendeley</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-02-zotero/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-02-zotero/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-02-zotero/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-02-zotero/</guid>
       <description>&lt;p&gt;After reaching the 2 Gb free space limit of Mendeley, I did some research and decide to use Zotero as my pdf management tool.
 Different from Mendeley, Zotero supports WebDAV-based sync.&lt;/p&gt;
 &lt;p&gt;However, importing pdfs from Mendelay from Zotero is not easy, since the latest Mendelay release encrypts its database.

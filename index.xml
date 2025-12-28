@@ -5,12 +5,20 @@
     <link>https://liyuanlucasliu.github.io/</link>
       <atom:link href="https://liyuanlucasliu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Liyuan Liu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
       <title>Liyuan Liu</title>
       <link>https://liyuanlucasliu.github.io/</link>
     </image>
+    
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>https://liyuanlucasliu.github.io/blog/welcome/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/welcome/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>FlashRL: 8Bit Rollouts, Full Power RL</title>
@@ -214,9 +222,9 @@
     
     <item>
       <title>How to Covert T-Mobile One Plus 7T to the International Version</title>
-      <link>https://liyuanlucasliu.github.io/blog/2021-01-oneplus/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2021-01-oneplus/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2021-01-oneplus/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2021-01-oneplus/</guid>
       <description>&lt;p&gt;I shattered my phone screen several days ago, and decided to move my stuff from ios to Android, due to the huge price difference. Eventually, I managed to get an unlocked T-Mobile OnePlus 7T from B&amp;amp;H at about 300$. The phone is unlocked, but the system is the T-Mobile version, meaning all updates would be released from T-Mobile after a delay and the start screen will have a huge T-Mobile logo.&lt;/p&gt;
 &lt;p&gt;To get rid all of these, I flashed my system into the international version system, following 
 &lt;a href=&#34;https://forum.xda-developers.com/t/t-mobile-7t-conversion-to-international-without-unlocked-bootloader-sim-unlock.4153943/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this guide&lt;/a&gt;. Yet, as this is my first time dealing with Android, I met some problems, and the whole process toke me about three whole hours, motivating me to add some notes to the original guide.&lt;/p&gt;
@@ -288,9 +296,9 @@ Lock the bootloader again by first entering the fastboot, then check to make sur
     
     <item>
       <title>One Sentence Summary for EMNLP 2020</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-11-emnlp/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-11-emnlp/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-11-emnlp/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-11-emnlp/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;What Do Position Embeddings Learn? An Empirical Study of Pre-Trained Language Model Positional Encoding
 &lt;ul&gt;
@@ -556,9 +564,9 @@ features of limited usefulness, while chaning architecture can help to alleviate
     
     <item>
       <title>My Work-From-Home Secrets</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-08-wfh/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-08-wfh/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-08-wfh/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-08-wfh/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Chairs:
 &lt;ul&gt;
@@ -637,9 +645,9 @@ features of limited usefulness, while chaning architecture can help to alleviate
     
     <item>
       <title>Configuration Cheatsheet</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-07-setup/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-07-setup/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-07-setup/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-07-setup/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Docker
 &lt;ul&gt;
@@ -929,9 +937,9 @@ cd linux-UFRII-drv-v510-usen
     
     <item>
       <title>FP16 and Apex</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-03-fp16/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-03-fp16/</guid>
       <description>&lt;p&gt;For recent Nvidia GPUs like V100 or R8000, allowing half-precision training can get roughly 2X speedup instantly, and the only problem is &lt;strong&gt;how to conduct mixed-precision training?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Unlike TPU, typical Nvidia GPUs follow the IEEE fp16 standard instead of bfp16.
 Specifically, TPU uses the bfp16 standard with 8 exponent bits and 7 mantissa bits, while fp16 has only 5 exponent bits and 10 mantissa bits.
@@ -991,9 +999,9 @@ torch.nn.functional.linear = wrapped_linear
     
     <item>
       <title>NextCloud Docker Setup</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-03-nextcloud/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-03-nextcloud/</guid>
       <description>&lt;p&gt;I found NextCloud to be very powerful, flexible and expandable.
 Specifically, I setup NextCloud on my synology NAS via docker, manually upload my file (while will be essentially faster) for the initial sync, then use NextCloud as a combination of Dropbox and Google Drive.&lt;/p&gt;
 &lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
@@ -1089,9 +1097,9 @@ networks:
     
     <item>
       <title>How to Save You (Make You Fast), Time Machine</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-02-tm/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-02-tm/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-02-tm/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-02-tm/</guid>
       <description>&lt;p&gt;Last night, my Macbook Pro 2015 broke from an unsuccessful program install and could not start up. &lt;strong&gt;Time machine saves me&lt;/strong&gt;, &lt;strong&gt;again&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Data is priceless and duplication is the only way to protect it.
 Time Machine is a useful program, however, its speed could be deadly slow if you are using a remote storage (instead of directly connected via usb or other cable).&lt;/p&gt;
@@ -1114,9 +1122,9 @@ Running the following code would save you tons of time:&lt;/p&gt;
     
     <item>
       <title>Zotero, Importing from Mendeley</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-02-zotero/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-02-zotero/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-02-zotero/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-02-zotero/</guid>
       <description>&lt;p&gt;After reaching the 2 Gb free space limit of Mendeley, I did some research and decide to use Zotero as my pdf management tool.
 Different from Mendeley, Zotero supports WebDAV-based sync.&lt;/p&gt;
 &lt;p&gt;However, importing pdfs from Mendelay from Zotero is not easy, since the latest Mendelay release encrypts its database.
@@ -1132,9 +1140,9 @@ Below is some notes on how to hack the importing.&lt;/p&gt;
     
     <item>
       <title>Hands Down, Best Router within 100$: K3C (which costs 30 USD)</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-02-k3c/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-02-k3c/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-02-k3c/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-02-k3c/</guid>
       <description>&lt;p&gt;Since I need a router to turn the printer (gift from 
 &lt;a href=&#34;https://shangjingbo1226.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jingbo&lt;/a&gt;) into a internet printer, I did some research on cheap-but-powerful routers.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;K3C costs about &lt;strong&gt;30$&lt;/strong&gt; but performs like a &lt;strong&gt;200$&lt;/strong&gt; router.&lt;/strong&gt;&lt;/p&gt;

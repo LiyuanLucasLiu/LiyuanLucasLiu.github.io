@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://liyuanlucasliu.github.io/blog/</loc>
+    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://liyuanlucasliu.github.io/</loc>
+    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://liyuanlucasliu.github.io/blog/welcome/</loc>
+    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://liyuanlucasliu.github.io/publication_types/3/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -24,9 +33,6 @@
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/authors/jingbo-shang/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liyuanlucasliu.github.io/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/authors/liyuan-liu/</loc>
@@ -737,7 +743,7 @@
     <loc>https://liyuanlucasliu.github.io/publication/liu-singlehead-2021/</loc>
     <lastmod>2021-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/tags/adversarial-training/</loc>
@@ -755,7 +761,7 @@
     <loc>https://liyuanlucasliu.github.io/authors/haochen-shi/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/2021-01-oneplus/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/2021-01-oneplus/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/authors/jian-shao/</loc>
@@ -782,7 +788,7 @@
     <loc>https://liyuanlucasliu.github.io/tags/emnlp/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/2020-11-emnlp/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/2020-11-emnlp/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/tags/paper-summary/</loc>
@@ -821,7 +827,7 @@
     <loc>https://liyuanlucasliu.github.io/authors/kevin-duh/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/2020-08-wfh/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/2020-08-wfh/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/tags/nmt/</loc>
@@ -878,7 +884,7 @@
     <loc>https://liyuanlucasliu.github.io/authors/yuning-mao/</loc>
     <lastmod>2020-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/2020-07-setup/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/2020-07-setup/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/authors/fang-guo/</loc>
@@ -905,7 +911,7 @@
     <loc>https://liyuanlucasliu.github.io/tags/fp16/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/2020-03-fp16/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/tags/gpu/</loc>
@@ -914,13 +920,13 @@
     <loc>https://liyuanlucasliu.github.io/tags/nas/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/2020-03-nextcloud/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/tags/pytorch/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/2020-02-tm/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/2020-02-tm/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/tags/time-machine/</loc>
@@ -929,10 +935,10 @@
     <loc>https://liyuanlucasliu.github.io/tags/zotero/</loc>
     <lastmod>2020-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/2020-02-zotero/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/2020-02-zotero/</loc>
     <lastmod>2020-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liyuanlucasliu.github.io/blog/2020-02-k3c/</loc>
+    <loc>https://liyuanlucasliu.github.io/notes/2020-02-k3c/</loc>
     <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liyuanlucasliu.github.io/tags/router/</loc>

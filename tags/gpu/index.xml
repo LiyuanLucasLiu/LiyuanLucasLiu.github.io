@@ -14,9 +14,9 @@
     
     <item>
       <title>FP16 and Apex</title>
-      <link>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</link>
+      <link>https://liyuanlucasliu.github.io/notes/2020-03-fp16/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://liyuanlucasliu.github.io/blog/2020-03-fp16/</guid>
+      <guid>https://liyuanlucasliu.github.io/notes/2020-03-fp16/</guid>
       <description>&lt;p&gt;For recent Nvidia GPUs like V100 or R8000, allowing half-precision training can get roughly 2X speedup instantly, and the only problem is &lt;strong&gt;how to conduct mixed-precision training?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Unlike TPU, typical Nvidia GPUs follow the IEEE fp16 standard instead of bfp16.
 Specifically, TPU uses the bfp16 standard with 8 exponent bits and 7 mantissa bits, while fp16 has only 5 exponent bits and 10 mantissa bits.
