@@ -24,8 +24,7 @@
 &lt;li&gt;First step&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Download the patched MSM download tool: 
-&lt;a href=&#34;https://drive.google.com/file/d/12y3lO0wIgb2_LSDeVw9x_2C_HjbgZlb_/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://drive.google.com/file/d/12y3lO0wIgb2_LSDeVw9x_2C_HjbgZlb_/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download the patched MSM download tool: &lt;a href=&#34;https://drive.google.com/file/d/12y3lO0wIgb2_LSDeVw9x_2C_HjbgZlb_/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/12y3lO0wIgb2_LSDeVw9x_2C_HjbgZlb_/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;An easy first step.&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
@@ -49,8 +48,7 @@
 &lt;li&gt;Third Step&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The phone will show a red warning saying &amp;ldquo;device is corrupt&amp;rdquo;, just ignore that and wait some time. It will fallback in fastboot because it&amp;rsquo;s not able to boot. Update your fastboot executable, otherwise you&amp;rsquo;ll encounter errors and modem issues. Download it here: 
-&lt;a href=&#34;https://dl.google.com/android/repository/platform-tools-latest-windows.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dl.google.com/android/repository/platform-tools-latest-windows.zip&lt;/a&gt;. Now run the following fastboot command &lt;code&gt;fastboot flashing unlock_critical&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The phone will show a red warning saying &amp;ldquo;device is corrupt&amp;rdquo;, just ignore that and wait some time. It will fallback in fastboot because it&amp;rsquo;s not able to boot. Update your fastboot executable, otherwise you&amp;rsquo;ll encounter errors and modem issues. Download it here: &lt;a href=&#34;https://dl.google.com/android/repository/platform-tools-latest-windows.zip&#34;&gt;https://dl.google.com/android/repository/platform-tools-latest-windows.zip&lt;/a&gt;. Now run the following fastboot command &lt;code&gt;fastboot flashing unlock_critical&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I changed the order of this part a little bit. It is necessary to download the 
 &lt;a href=&#34;https://dl.google.com/android/repository/usb_driver_r13-windows.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Android Usb Driver&lt;/a&gt;, and install the driver via the step 39+ in 
@@ -78,8 +76,8 @@ Open CMD (with admin rights) and navigate to your ADB folder. run &lt;code&gt;fl
 &lt;li&gt;Final Step&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;You&amp;rsquo;ve now fully converted to the Global Firmware. Confirm this by going to settings &amp;gt; about phone and look at Build Number.
-Update the system to the latest firmwarm.
+&lt;p&gt;You&amp;rsquo;ve now fully converted to the Global Firmware. Confirm this by going to settings &amp;gt; about phone and look at Build Number. 
+Update the system to the latest firmwarm. 
 Lock the bootloader again by first entering the fastboot, then check to make sure phone is being picked up by bootloader via &lt;code&gt;fastboot devices&lt;/code&gt; (on PC), and finally relock bootloader via &lt;code&gt;fastboot oem lock&lt;/code&gt; (on PC).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Welcome to the international version OnePlus 7T!&lt;/p&gt;
